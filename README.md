@@ -16,7 +16,7 @@ Okuma alışkanlığını kazandırma amacıyla 2011 yılında deklare edilen En
 
 Animasyonda 3B nesneleri gerçek zamanlı olarak tanımak ve izlemek için artırılmış gerçeklik uygulamalarının oluşturulmasını sağlayan mobil cihazlar için artırılmış gerçeklik yazılım geliştirme kiti olan 
 
-[Vuforia]: https://developer.vuforia.com
+[Vuforia]: (https://developer.vuforia.com)
 
  kullanılacaktır. 
 
@@ -30,7 +30,7 @@ Yazılımsal kısım ve canlandırmaların tek bir ortamda gösterilerek tasarla
 
 3-Boyutlu modelleri oluşturmak için 
 
-[MAYA]: https://www.autodesk.com.tr/products/maya/overview
+[MAYA]: (https://www.autodesk.com.tr/products/maya/overview)
 
 kullanılacaktır.
 
@@ -38,7 +38,7 @@ Yazılım olarak 3B modelleme aracı Maya, oyun motoru Unity ve AR eklentisi Vuf
 
 Beyin-bilgisayar arayüzlerini tasarlama ve test etmek için 
 
-[OpenVibe]: http://openvibe.inria.fr
+[OpenVibe]: (http://openvibe.inria.fr)
 
 kullanılacaktır.
 
@@ -50,7 +50,7 @@ kullanılacaktır.
 
 # İş Bölümü Planlama
 
-![Untitled](C:\Users\clayos\Desktop\Untitled.png)
+![şema1](https://i.hizliresim.com/5mv7N8.png)
 
 
 
