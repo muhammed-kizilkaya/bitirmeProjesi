@@ -1,286 +1,59 @@
-# markdowntest
+# GELİŞİM RAPORU
 
-[](https://muhammedbayat.files.wordpress.com/2019/02/image-7.png?w=736)
+## PROJE ÖZETİ
 
-##APP LINK
+ Tasarlanacak özgün bir AR uygulamasının kitap incelemelerinde okuyucular üzerindeki etkisi incelenecektir. AR uygulamaları sayesinde görsel nesnelerin üç boyutlu kullanılması okurların ilgisini çekecek ve konular üzerinde farklı bakış açıları kazanmalarını sağlayacağı beklenilmektedir. Okuyucuların AR kullanılarak tanıtımı yapılan kitaba olan ilgisi ile AR kullanılmadan kitaba olan ilgisi yine okuyucunun beyin sinyallerini inceleyerek araştıracağız. Bu araştırma ile kitap ve benzeri ürün tanıtımlarında AR tekniğinin kullanımının etkilerini belirlemiş olacağız. Bu etkiler ile AR uygulamalarının yaygınlaşması ve hangi tür noktalarda problem çıkardığı ve çalışma ile belirlenen arayüzlerdeki etkili noktalar önerilerek bu tekniği kullanan geliştiricilere yardımcı bir araştırma sunmayı hedefliyoruz.Bu proje, kitaplara olan ilgiyi artıracak özgün ve zengin içerikli bir AR uygulaması geliştirmeyi ve bu uygulamanın başarımını EEG sinyalleri ile doğrulamayı amaçlamaktadır.   
 
+## Proje Arka Planı
 
-[typora](https://typora.io/#windows)
 
 
+## Kullanılacak Teknolojiler
 
-# h1 başlığı <h1> 
-## h2 başlığı <h2> 
-###### h6 başlığı<h6> 
+Beyin sinyalleri incelenirken yapay zeka tekniklerinden Derin Öğrenme yöntemi kullanılacaktır. Bunun için yeterince miktarda katılımcı ile büyük bir veriseti oluşturulacaktır. Bu veriseti üzerinde çeşitli sinyal işleme teknikleri kullanarak beyin loblarından hangisinde AR uygulamasının daha fazla aktivasyon meydana getirdiğini gözlemlemeyi düşünüyoruz. Yapacağımız bu analizler ile hem tasarlayacağımız özgün AR arayüzü uygulamasındaki tecrübelerimizi hem de beynin görsel resim ve animasyonlara tepkisini yayınlayacağız.
 
-[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
+Okuma alışkanlığını kazandırma amacıyla 2011 yılında deklare edilen Endüstri 4.0 isimli 4. sanayi devriminin en önemli bileşenlerinden birisi olan Artırılmış Gerçeklik uygulamaları kullanılacaktır.
 
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
+Animasyonda 3B nesneleri gerçek zamanlı olarak tanımak ve izlemek için artırılmış gerçeklik uygulamalarının oluşturulmasını sağlayan mobil cihazlar için artırılmış gerçeklik yazılım geliştirme kiti olan 
 
+[Vuforia]: https://developer.vuforia.com
 
-*This text will be italic* "* * "
+ kullanılacaktır. 
 
-_This will also be italic_ "_ _"
+Yazılımsal kısım ve canlandırmaların tek bir ortamda gösterilerek tasarlanması için 
 
-**This text will be bold** "** **""
+[Unity]: (https://unity.com)
 
-__This will also be bold__ "__ __"
+ kullanılacaktır. Bu uygulama tamamen özgün çizimler ve seslendirmelerle modellenerek bir animasyon oluşturulacaktır. Bu AR uygulamasının kullanımını katılımcılara sunacağız. Katılımcıların hem AR uygulaması olmadan kitaplara olan ilgisini hem de Artırılmış gerçeklik (augmented reality) uygulaması ile kitaplara olan ilgisini beyin sinyallerini inceleyerek analiz edeceğiz.
 
-_You **can** combine them_ "_ ** ** _"
+ Mobil beyin sinyalleri elde etme cihazı 14 kanallı **Emotiv EPOC+** kullanılacaktır. 
 
-* Item 1
-* Item 2
-  * Item 2a
-  * Item 2b
-  
- 
-def foo():
-    if not bar:
-        return True
-        
-        
-        
-- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
-- [x] list syntax required (any unordered or ordered list supported)
-- [x] this is a complete item
-- [ ] this is an incomplete item
+3-Boyutlu modelleri oluşturmak için 
 
+[MAYA]: https://www.autodesk.com.tr/products/maya/overview
 
-|                |ASCII                          |HTML                         |
-|----------------|-------------------------------|-----------------------------|
-|Single backticks|`'Isn't this fun?'`            |'Isn't this fun?'            |
-|Quotes          |`"Isn't this fun?"`            |"Isn't this fun?"            |
-|Dashes          |`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
+kullanılacaktır.
 
+Yazılım olarak 3B modelleme aracı Maya, oyun motoru Unity ve AR eklentisi Vuforia, EEG sinyallerinin incelenmesinde Matlab ve Python yazılımları kullanılacaktır.
 
+Beyin-bilgisayar arayüzlerini tasarlama ve test etmek için 
 
+[OpenVibe]: http://openvibe.inria.fr
 
-**Table of Contents**
+kullanılacaktır.
 
-[TOCM]
+ Veriler, Matlab EEGLab eklentisi kullanılarak ön işlemeye tabi tutulacak, AAR (Automatic Artifact Removal) kullanılarak gürültülerden temizlenecektir. Yine araç içerisindeki Bağımsız Bileşenler Analizi (Independent Component Analysis, ICA) ile doğal üretilen EEG kaynakları diğer kaynaklardan ayrıştırılacaktır.
 
-[TOC]
+  EEG sinyalleri elde edilirken, sinyallere gürültü de (deri veya terlemeden kaynaklanan potansiyellerden oluşan veya nörolojik olmayan sinyaller) karışmaktadır. Çalışmada EEG sinyalleri 0.16-45 Hz band geçiren filtreden geçirilerek kullanılacaktır. Daha sonra sinyaller deney protokolünde ayrılan periyotlara bölütlenecek ve her periyot arasındaki baseline süresi çıkarılacaktır.
 
-#H1 header
-##H2 header
-###H3 header
-####H4 header
-#####H5 header
-######H6 header
-#Heading 1 link [Heading link](https://github.com/pandao/editor.md "Heading link")
-##Heading 2 link [Heading link](https://github.com/pandao/editor.md "Heading link")
-###Heading 3 link [Heading link](https://github.com/pandao/editor.md "Heading link")
-####Heading 4 link [Heading link](https://github.com/pandao/editor.md "Heading link") Heading link [Heading link](https://github.com/pandao/editor.md "Heading link")
-#####Heading 5 link [Heading link](https://github.com/pandao/editor.md "Heading link")
-######Heading 6 link [Heading link](https://github.com/pandao/editor.md "Heading link")
+ Derin Öğrenme tekniğinde girdi olarak kullanılan veriler görsel olarak resim matrisi olarak algılanır. EEG elektrotları, 3-boyutlu bir alanda kafa derisi üzerine dağıldığından bu dağılımı derin öğrenmede kullanılacak girdi matrisine dönüştürmek gerekir. Uzaysal olarak dağıtılmış aktivite haritalarını, 2-boyutlu görüntülere dönüştürmek için, öncelikle 3-boyutlu bölgedeki elektrotların yerinin, 2-boyutlu projeksiyonunun yapılması gerekir. Görüntü-benzeri yapıların genişliği ve yüksekliği korteks üzerindeki etkinliklerin uzaysal dağılımını temsil eder. Kafatası üzerinde yayılmış güç ölçümlerinin interpolasyonu yapılır ve boyutları elektrot sayısı (n) kadar olan nxn’lik mesh matrisleri üretilir. Bu prosedür, her bir frekans bandı için tekrarlanır ve her bir frekans bandına karşılık gelen üç temel topografik aktivite haritası elde edilir. Üç uzamsal harita, daha sonra üç farklı rengi temsil eden kanal ile görüntü-benzeri yapı oluşturmak için birleştirilir. Bu üç kanallı görüntü, derin öğrenme yapısına sahip sinir ağına girdi olarak verilecektir
 
-##Headers (Underline)
+# İş Bölümü Planlama
 
-H1 Header (Underline)
-=============
+![Untitled](C:\Users\clayos\Desktop\Untitled.png)
 
-H2 Header (Underline)
--------------
 
-###Characters
-                
-----
 
-~~Strikethrough~~ <s>Strikethrough (when enable html tag decode.)</s>
-*Italic*      _Italic_
-**Emphasis**  __Emphasis__
-***Emphasis Italic*** ___Emphasis Italic___
+# Hedeflenen Çıktılar
 
-Superscript: X<sub>2</sub>，Subscript: O<sup>2</sup>
-
-**Abbreviation(link HTML abbr tag)**
-
-The <abbr title="Hyper Text Markup Language">HTML</abbr> specification is maintained by the <abbr title="World Wide Web Consortium">W3C</abbr>.
-
-###Blockquotes
-
-> Blockquotes
-
-Paragraphs and Line Breaks
-                    
-> "Blockquotes Blockquotes", [Link](http://localhost/)。
-
-###Links
-
-[Links](http://localhost/)
-
-[Links with title](http://localhost/ "link title")
-
-`<link>` : <https://github.com>
-
-[Reference link][id/name] 
-
-[id/name]: http://link-url/
-
-GFM a-tail link @pandao
-
-###Code Blocks (multi-language) & highlighting
-
-####Inline code
-
-`$ npm install marked`
-
-####Code Blocks (Indented style)
-
-Indented 4 spaces, like `<pre>` (Preformatted Text).
-
-    <?php
-        echo "Hello world!";
-    ?>
-    
-Code Blocks (Preformatted text):
-
-    | First Header  | Second Header |
-    | ------------- | ------------- |
-    | Content Cell  | Content Cell  |
-    | Content Cell  | Content Cell  |
-
-####Javascript　
-
-```javascript
-function test(){
-	console.log("Hello world!");
-}
- 
-(function(){
-    var box = function(){
-        return box.fn.init();
-    };
-
-    box.prototype = box.fn = {
-        init : function(){
-            console.log('box.init()');
-
-			return this;
-        },
-
-		add : function(str){
-			alert("add", str);
-
-			return this;
-		},
-
-		remove : function(str){
-			alert("remove", str);
-
-			return this;
-		}
-    };
-    
-    box.fn.init.prototype = box.fn;
-    
-    window.box =box;
-})();
-
-var testBox = box();
-testBox.add("jQuery").remove("jQuery");
-```
-
-####HTML code
-
-```html
-<!DOCTYPE html>
-<html>
-    <head>
-        <mate charest="utf-8" />
-        <title>Hello world!</title>
-    </head>
-    <body>
-        <h1>Hello world!</h1>
-    </body>
-</html>
-```
-
-###Images
-
-Image:
-
-![](https://pandao.github.io/editor.md/examples/images/4.jpg)
-
-> Follow your heart.
-
-![](https://pandao.github.io/editor.md/examples/images/8.jpg)
-
-
-
- (Image + Link)：
-
-[![](https://pandao.github.io/editor.md/examples/images/7.jpg)](https://pandao.github.io/editor.md/examples/images/7.jpg " DENEME")
-
-
-                
-----
-
-###Lists
-
-####Unordered list (-)
-
-- Item A
-- Item B
-- Item C
-     
-####Unordered list (*)
-
-* Item A
-* Item B
-* Item C
-
-####Unordered list (plus sign and nested)
-                
-+ Item A
-+ Item B
-    + Item B 1
-    + Item B 2
-    + Item B 3
-+ Item C
-    * Item C 1
-    * Item C 2
-    * Item C 3
-
-####Ordered list
-                
-1. Item A
-2. Item B
-3. Item C
-                
-----
-                    
-###Tables
-                    
-First Header  | Second Header
-------------- | -------------
-Content Cell  | Content Cell
-Content Cell  | Content Cell 
-
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-
-| Function name | Description                    |
-| ------------- | ------------------------------ |
-| `help()`      | Display the help window.       |
-| `destroy()`   | **Destroy your computer!**     |
-
-| Item      | Value |
-| --------- | -----:|
-| Computer  | $1600 |
-| Phone     |   $12 |
-| Pipe      |    $1 |
-
-| Left-Aligned  | Center Aligned  | Right Aligned |
-| :------------ |:---------------:| -----:|
-| col 3 is      | some wordy text | $1600 |
-| col 2 is      | centered        |   $12 |
-| zebra stripes | are neat        |    $1 |
-                
-----
-
-
-
-
+Bilgisayar ve mobil ortamda geliştirilecek bu uygulamada kitaplara olan ilgiyi artıracak özgün ve zengin içerikli bir AR uygulaması geliştirmeyi ve bu uygulamanın başarımını EEG sinyalleri ile doğrulamayı amaçlamaktadır.   
