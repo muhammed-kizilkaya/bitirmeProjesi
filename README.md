@@ -14,33 +14,17 @@ Beyin sinyalleri incelenirken yapay zeka tekniklerinden Derin Öğrenme yöntemi
 
 Okuma alışkanlığını kazandırma amacıyla 2011 yılında deklare edilen Endüstri 4.0 isimli 4. sanayi devriminin en önemli bileşenlerinden birisi olan Artırılmış Gerçeklik uygulamaları kullanılacaktır.
 
-Animasyonda 3B nesneleri gerçek zamanlı olarak tanımak ve izlemek için artırılmış gerçeklik uygulamalarının oluşturulmasını sağlayan mobil cihazlar için artırılmış gerçeklik yazılım geliştirme kiti olan 
+Animasyonda 3B nesneleri gerçek zamanlı olarak tanımak ve izlemek için artırılmış gerçeklik uygulamalarının oluşturulmasını sağlayan mobil cihazlar için artırılmış gerçeklik yazılım geliştirme kiti olan [Vuforia](https://developer.vuforia.com) kullanılacaktır. 
 
-[Vuforia]: (https://developer.vuforia.com)
-
- kullanılacaktır. 
-
-Yazılımsal kısım ve canlandırmaların tek bir ortamda gösterilerek tasarlanması için 
-
-[Unity]: (https://unity.com)
-
- kullanılacaktır. Bu uygulama tamamen özgün çizimler ve seslendirmelerle modellenerek bir animasyon oluşturulacaktır. Bu AR uygulamasının kullanımını katılımcılara sunacağız. Katılımcıların hem AR uygulaması olmadan kitaplara olan ilgisini hem de Artırılmış gerçeklik (augmented reality) uygulaması ile kitaplara olan ilgisini beyin sinyallerini inceleyerek analiz edeceğiz.
+Yazılımsal kısım ve canlandırmaların tek bir ortamda gösterilerek tasarlanması için [Unity](https://unity.com) kullanılacaktır. Bu uygulama tamamen özgün çizimler ve seslendirmelerle modellenerek bir animasyon oluşturulacaktır. Bu AR uygulamasının kullanımını katılımcılara sunacağız. Katılımcıların hem AR uygulaması olmadan kitaplara olan ilgisini hem de Artırılmış gerçeklik (augmented reality) uygulaması ile kitaplara olan ilgisini beyin sinyallerini inceleyerek analiz edeceğiz.
 
  Mobil beyin sinyalleri elde etme cihazı 14 kanallı **Emotiv EPOC+** kullanılacaktır. 
 
-3-Boyutlu modelleri oluşturmak için 
-
-[MAYA]: (https://www.autodesk.com.tr/products/maya/overview)
-
-kullanılacaktır.
+3-Boyutlu modelleri oluşturmak için [MAYA](https://www.autodesk.com.tr/products/maya/overview)  kullanılacaktır.
 
 Yazılım olarak 3B modelleme aracı Maya, oyun motoru Unity ve AR eklentisi Vuforia, EEG sinyallerinin incelenmesinde Matlab ve Python yazılımları kullanılacaktır.
 
-Beyin-bilgisayar arayüzlerini tasarlama ve test etmek için 
-
-[OpenVibe]: (http://openvibe.inria.fr)
-
-kullanılacaktır.
+Beyin-bilgisayar arayüzlerini tasarlama ve test etmek için [OpenVibe](http://openvibe.inria.fr) kullanılacaktır.
 
  Veriler, Matlab EEGLab eklentisi kullanılarak ön işlemeye tabi tutulacak, AAR (Automatic Artifact Removal) kullanılarak gürültülerden temizlenecektir. Yine araç içerisindeki Bağımsız Bileşenler Analizi (Independent Component Analysis, ICA) ile doğal üretilen EEG kaynakları diğer kaynaklardan ayrıştırılacaktır.
 
