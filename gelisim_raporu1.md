@@ -29,15 +29,15 @@ Seçilen katılımcıların beyin sinyallerini  içeren büyük bir veriseti olu
 
 kullanılacaktır. Bu uygulama tamamen özgün çizimler ve seslendirmelerle modellenerek bir animasyon oluşturulacaktır. Bu AR uygulamasının kullanımı katılımcılara sunulacaktır. Katılımcıların hem AR uygulaması olmadan kitaplara olan ilgisini hem de Artırılmış gerçeklik (augmented reality) uygulaması ile kitaplara olan ilgisini beyin sinyalleri incelenerek analiz edilecektir.
 
-- Mobil beyin sinyalleri elde etme cihazı 14 kanallı Emotiv EPOC+ kullanılacaktır. 
+- Mobil beyin sinyalleri elde etme cihazı 14 kanallı [Emotiv EPOC+](https://www.youtube.com/watch?v=LZrat-VG4Ms) kullanılacaktır. 
 
 - 3-Boyutlu modelleri oluşturmak için [MAYA](https://www.autodesk.com.tr/products/maya/overview) kullanılacaktır.
 
-- Yazılım olarak 3B modelleme aracı Maya, oyun motoru Unity ve AR eklentisi Vuforia, EEG sinyallerinin incelenmesinde Matlab ve Python yazılımları kullanılacaktır.
+- Yazılım olarak 3B modelleme aracı Maya, oyun motoru Unity ve AR eklentisi Vuforia, EEG sinyallerinin incelenmesinde Matlab ve Python ([Python MNE kütüphanesi](https://www.youtube.com/watch?v=sttf-Rgfl1Q)) yazılımları kullanılacaktır.
 
 - Beyin-bilgisayar arayüzlerini tasarlama ve test etmek için [OpenVibe](http://openvibe.inria.fr) ve [OpenBCI](https://openbci.com) kütüphaneleri kullanılacaktır.
 
-- Veriler, Matlab EEGLab eklentisi kullanılarak ön işlemeye tabi tutulacak, AAR (Automatic Artifact Removal) kullanılarak gürültülerden temizlenecektir. Yine araç içerisindeki Bağımsız Bileşenler Analizi (Independent Component Analysis, ICA) ile doğal üretilen EEG kaynakları diğer kaynaklardan ayrıştırılacaktır.
+- Veriler, Matlab [EEGLab](https://www.youtube.com/watch?v=gEk33jWB0MY) eklentisi kullanılarak ön işlemeye tabi tutulacak, [AAR](https://www.youtube.com/watch?v=bhjOKY7oGuE) (Automatic Artifact Removal) kullanılarak gürültülerden temizlenecektir. Yine araç içerisindeki Bağımsız Bileşenler Analizi [(Independent Component Analysis, ICA)](https://www.youtube.com/watch?v=dIWSW2g5MCc) ile doğal üretilen EEG kaynakları diğer kaynaklardan ayrıştırılacaktır.
 
 
 
@@ -49,7 +49,7 @@ kullanılacaktır. Bu uygulama tamamen özgün çizimler ve seslendirmelerle mod
 
 ## Hedeflenen Çıktılar
 
-Proje sonunda yapılması planlanan mobil uygulama kısmında AR tekniği kullanılarak görsel nesnelerin üç boyutlu gösterimi sağlanacaktır. Ayrıca masaüstü uygulamasında ise, EEG sinyalleri ile toplanan verilerin analizi üzerinde AR tekniğinin ne kadar başarılı olacağı test edilip, EEG sinyallerinin alınmasında özgün bir BCI arayüz tasarlanarak kullanıcıya anlaşılır şekilde kolay yönergeler verilecektir. Bu işlemler Windows işletim sistemi üzerinde   Emotiv EPOC+ cihazı sayesinde gerçekleştirilecektir.
+Proje sonunda yapılması planlanan mobil uygulama kısmında AR tekniği kullanılarak görsel nesnelerin üç boyutlu gösterimi sağlanacaktır. Ayrıca masaüstü uygulamasında ise, EEG sinyalleri ile toplanan verilerin analizi üzerinde AR tekniğinin ne kadar başarılı olacağı test edilip, EEG sinyallerinin alınmasında özgün bir BCI arayüz tasarlanarak kullanıcıya anlaşılır şekilde kolay yönergeler verilecektir. Bu işlemler Windows işletim sistemi üzerinde   [Emotiv EPOC+](https://www.emotiv.com/bci-guide/) cihazı sayesinde gerçekleştirilecektir.
 
 Bunların yanı sıra kitaplara olan ilgiyi artıracak özgün ve zengin içerikli uygulama genel kitleye hitap ettiği için kitap almayı etkin bir hale getirerek insanlara okuma alışkanlığı kazandıracaktır.
 
