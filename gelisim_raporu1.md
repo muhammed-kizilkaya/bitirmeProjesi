@@ -37,8 +37,8 @@ kullanılacaktır. Bu uygulama tamamen özgün çizimler ve seslendirmelerle mod
 
 - Beyin-bilgisayar arayüzlerini tasarlama ve test etmek için 
 
-- [OpenVibe] (http://openvibe.inria.fr)
-- [OpenBCI] (https://openbci.com)
+- [OpenVibe](http://openvibe.inria.fr)
+- [OpenBCI](https://openbci.com)
 
 kütüphaneleri kullanılacaktır.
 
