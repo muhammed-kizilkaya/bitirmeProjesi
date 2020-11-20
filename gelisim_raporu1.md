@@ -35,12 +35,7 @@ kullanılacaktır. Bu uygulama tamamen özgün çizimler ve seslendirmelerle mod
 
 - Yazılım olarak 3B modelleme aracı Maya, oyun motoru Unity ve AR eklentisi Vuforia, EEG sinyallerinin incelenmesinde Matlab ve Python yazılımları kullanılacaktır.
 
-- Beyin-bilgisayar arayüzlerini tasarlama ve test etmek için 
-
-- [OpenVibe](http://openvibe.inria.fr)
-- [OpenBCI](https://openbci.com)
-
-kütüphaneleri kullanılacaktır.
+- Beyin-bilgisayar arayüzlerini tasarlama ve test etmek için [OpenVibe](http://openvibe.inria.fr) ve [OpenBCI](https://openbci.com) kütüphaneleri kullanılacaktır.
 
 - Veriler, Matlab EEGLab eklentisi kullanılarak ön işlemeye tabi tutulacak, AAR (Automatic Artifact Removal) kullanılarak gürültülerden temizlenecektir. Yine araç içerisindeki Bağımsız Bileşenler Analizi (Independent Component Analysis, ICA) ile doğal üretilen EEG kaynakları diğer kaynaklardan ayrıştırılacaktır.
 
