@@ -25,7 +25,8 @@ Seçilen katılımcıların beyin sinyallerini  içeren büyük bir veriseti olu
 
 - Animasyonda 3B nesneleri gerçek zamanlı olarak tanımak ve izlemek için artırılmış gerçeklik uygulamalarının oluşturulmasını sağlayan mobil cihazlar için artırılmış gerçeklik yazılım geliştirme kiti olan [Vuforia](https://developer.vuforia.com) kullanılacaktır. 
 
-- Yazılımsal kısım ve canlandırmaların tek bir ortamda gösterilerek tasarlanması için [Unity](https://unity.com) , [Unity Vuforia örnek video](https://www.youtube.com/watch?v=MtiUx_szKbI)
+- Yazılımsal kısım ve canlandırmaların tek bir ortamda gösterilerek tasarlanması için [Unity](https://unity.com) kullanılacaktır.
+- [Unity ve Vuforia örnek video](https://www.youtube.com/watch?v=MtiUx_szKbI)
 
 kullanılacaktır. Bu uygulama tamamen özgün çizimler ve seslendirmelerle modellenerek bir animasyon oluşturulacaktır. Bu AR uygulamasının kullanımı katılımcılara sunulacaktır. Katılımcıların hem AR uygulaması olmadan kitaplara olan ilgisini hem de Artırılmış gerçeklik (augmented reality) uygulaması ile kitaplara olan ilgisini beyin sinyalleri incelenerek analiz edilecektir.
 
