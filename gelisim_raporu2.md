@@ -14,3 +14,8 @@
 
 
 ## İş Dağılımı
+Grup Üyesi | Saat Yüzdesi
+------------ | -------------
+Muhammed Bayat | 
+Ayşe Kartal | 
+Beyza Coşkun | 
