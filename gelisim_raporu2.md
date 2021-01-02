@@ -7,8 +7,7 @@
 
 ## Kaynaklar
 1. Pham, Tan ve Patrick. “Cortex-v2-Example” Github, 7 Temmuz 2020, github.com/Emotiv/cortex-v2-example.
-2. International Journal of Human-Computer Studies https://doi.org/10.1016/j.ijhcs.2020.102579
-
+2.
 ## Zorluklar
 
 ![anket](/images/unityAnket.png)
@@ -44,7 +43,7 @@ Mobil ortamda gösterilecek kitap üstündeki sahneye karşı katılımcının n
 
 Yazılım olarak 3B modelleme aracı Maya, oyun motoru Unity ve AR eklentisi Vuforia, EEG sinyallerinin incelenmesinde Matlab ve Python yazılımları kullanılacaktır.
 
-**Maya **
+**Autodesk Maya **
 Gerekli 3B modelleme ve animasyonların oluşturulmasında kullanılır.
 
 **Maya ile 3B Modelleme ve Modellemelerin Unity’e Aktarılması**
