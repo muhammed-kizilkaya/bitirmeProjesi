@@ -34,6 +34,19 @@ Form gönderme işini ilk etapta Google Firebase ile düşündük,fakat firebase
 
 ![KodOrnegi](/images/kodOrnegientry.png)
 
+
+Unity yeni sürümlerinde özellikle LTS(kararlı olamayan sürüm) de unity 2017 ve sonrasında vuforia unity ile beraber gelmiyor. Haricen paket olarak kurulması gerekiyor. Ayrıca ``` 
+using Vuforia 
+using System.IO.Ports ``` gibi  kütüphaneleri haricen indirip referans göstererek bug'lar giderildi.
+
+***HTML 5 WEBGL öğrenildi.***
+
+WebGL, web tarayıcıları üzerinde 3D grafikler oluşturmak için kullanılan platform bağımsız ve ücretsiz bir API’dir. Ayrıca internet sayfalarında 3 boyutlu görüntüler üretmeye yarayan arabirimdir. HTML 5 ile birlikte çıkan bu sisteme şu anda birçok tarayıcılar tarafından destek verilmekte ve Google Chrome,Firefox gibi sistemlerde kullanılmaktadır.
+
+Bizim projeye faydası gerek windows, gerek linux veya macos gibi işletim sistemlerinde dahi 3d modeli projeyi tam olarak açmamıza olanak sağlıyor olmasıdır. Çoğunlukla vuforia android üzerinde çalışmalar yapılyor, bu bizim için ek iş yorgunluğuna sebep olurken WEBGL sayesinde projeyi browser üzerinden açarak iş yükünü azaltmış olduk.
+
+
+
 ## Araçlar
 
 Erzurum Teknik Üniversitesi Bilgisayar Mühendisliği laboratuvarı kullanılmaktadır. Laboratuvar ortamı EEG cihazından sinyallerin gürültü binmeyecek şekilde doğru alınabilmesi için sessiz ve floresan lambanın kullanılmadığı uygun ışıklandırmaya sahip bir ortamdır.
