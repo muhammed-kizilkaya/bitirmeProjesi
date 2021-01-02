@@ -48,14 +48,14 @@ Gerekli 3B modelleme ve animasyonların oluşturulmasında kullanılır.
 
 **Maya ile 3B Modelleme ve Modellemelerin Unity’e Aktarılması**
 
-Bu araçlar, AR uygulamasında kullanılmakta ve animasyon için öncelikle 3B olarak modellenen karakterler yapılmıştır. Daha sonra bu modellemeleri Unity’e aktararak, ortam hareketleri katarak animasyon yapımı ve kitaplar hakkındaki bilgilerin yer alacağı arayüz tasarımına geçilecektir.
+3B olarak modellenen karakterler hazırlandıktan sonra modellemeler Unity’e aktarılır. Unity modellere ortam hareketlerinin eklenmesinde, animasyon yapımında ve kitaplar hakkındaki bilgilerin yer alacağı arayüz tasarımının hazırlanmasında kullanılacaktır.
 
 **Vuforia**
 
 Vuforia, Artırılmış Gerçeklik uygulamalarının oluşturulmasını sağlayan mobil cihazlarla uyumlu arttırılmış gerçeklik yazılım geliştirme kiti sayesinde animasyonda düzlemsel görüntüleri ve 3B nesneleri gerçek zamanlı olarak tanımak ve izlemek için kullandığımız bu görme teknolojisi kullanıldı. Bu görüntü kayıt özelliği, geliştiricilerin 3B modeller ve diğer ortamlar gibi sanal nesneleri, bir mobil cihazın kamerasıyla görüntülendiğinde gerçek dünyadaki nesnelere göre konumlandırmasını ve yönlendirilmesini sağlar. Böylece okuyucunun perspektifi ile nesnenin konumlandırıldığı perspektif aynı konuma karşılık gelir. Böylece sanal nesnenin gerçek dünya sahnesinin bir parçası olduğu haline getirilir.
     Vuforia, Unity oyun motorunun bir uzantısı aracılığıyla Java dilinde Uygulama Programlama Arabirimleri (API) sağlar. Bu şekilde, SDK hem IOS, Android hem de UWP için yerel gelişimi desteklerken, Unity'de her iki platforma da kolayca taşınabilir AR uygulamalarının geliştirilmesini sağlar.
     
-    Hazırlanan AR sahnesinden EEG sinyallerini toplama 
+**Hazırlanan AR sahnesinden EEG sinyallerini toplama** 
 Önceki iş paketleri ile hazırlanan AR arayüzü ve sahnemizi katılımcılara bir deney protokolü dahilinde izlettirip, arayüzü ve kitap deneyimlerini toplayacağız. Bunun için ilk önce EEG cihazı ile kitap tanıtımlarını AR uygulaması kullanılmadan kullanıcılara sunacağız. Kullanıcıların laboratuvar ortamında yalnız olarak 20 kitap üzerinde inceleme yapması istenecek. Her kitap belirli periyotlar dahilinde belirlenen sürede incelenecek ve her kitap değerlendirmesinden sonra katılımcıdan kitaba ait kişisel değerlendirme metriklerini doldurması istenecektir. Bu form laboratuvardaki bilgisayarda Python programlama dili ile hazırlanmış olacaktır. Daha sonra kısa bir ara sonrasında aynı kitaplar farklı sıralarda kullanıcıya değerlendirmesi için sunulacaktır. Bu ikinci oturumda kullanıcı tasarlanmış özgün AR arayüzü ile incelemelerini yapacak ve kişisel değerlendirmesini buradan yapacaktır.
 
 ## İş Dağılımı
