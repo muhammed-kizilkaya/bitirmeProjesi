@@ -67,7 +67,6 @@ user = {
 
 m = Marker()
 
-
 # start record --> add marker --> stop record --> disconnect headset --> export record
 record_export_folder = 'your place to export, you should have write permission, example on desktop'
 marker_numbers = 10
