@@ -36,10 +36,16 @@ Form gönderme işini ilk etapta Google Firebase ile düşündük,fakat firebase
 
 ## Araçlar
 Erzurum Teknik Üniversitesi Bilgisayar Mühendisliği laboratuvarı kullanılmaktadır. Laboratuvar ortamı EEG cihazından sinyallerin gürültü binmeyecek şekilde doğru alınabilmesi için sessiz ve floresan lambanın kullanılmadığı uygun ışıklandırmaya sahip bir ortamdır.
+
+Donanımsal araç olarak EEG sinyallerinin alınmasında Emotiv EPOC+ seçildi.
+
 **Emotiv EPOC+**
 Mobil ortamda gösterilecek kitap üstündeki sahneye karşı katılımcının ne kadar etkileşim göstereceğini beyin sinyalleriyle analiz ve elde etmede 14 kanallı Emotiv EPOC+ kullanılmaktadır. EEG cihazı beyinin Frontal, Parietal, Oksipital, Temporal,Serebellum loblarındaki etkileşimi inceleyebilmemiz için AF3, F7, F3, FC5, T7, P7, 02, 02, P8, T8, FC6, F4, F8, AF4 isimli elektrot konumlarından sinyal toplayıp datasetini oluşturmak için kullanılmaktadır. Cihazın örnekleme frekansı 128 sps (2048 Hz dahili), çözünürlüğü 14 bit 1 LSB ve bant genişliği 0.2-45 Hz’dir. Kablosuz özelliği sayesinde 2.4 GHz bandında USB alıcısı ile bilgisayar ortamında kullanılabilmektedir. Cihaz nemli keçeli elektrotlar ile kullanılır. Katılımcıların başına temas eden keçeler yeterince nemlendirilerek beyin sinyallerini daha sağlıklı bir şekilde alınabilmesi için gerekli elktriksel akımı oluşturmaya olanak sağlar.
 
-Diğer araçlardan olan 3B modelleme aracı Maya, oyun motoru Unity ve AR eklentisi Vuforia aşağıda detaylı olarak anlatılmıştır.
+Yazılım olarak 3B modelleme aracı Maya, oyun motoru Unity ve AR eklentisi Vuforia, EEG sinyallerinin incelenmesinde Matlab ve Python yazılımları kullanılacaktır.
+
+**Maya **
+Gerekli 3B modelleme ve animasyonların oluşturulmasında kullanılır.
 
 **Maya ile 3B Modelleme ve Modellemelerin Unity’e Aktarılması**
 
@@ -49,6 +55,9 @@ Bu araçlar, AR uygulamasında kullanılmakta ve animasyon için öncelikle 3B o
 
 Vuforia, Artırılmış Gerçeklik uygulamalarının oluşturulmasını sağlayan mobil cihazlarla uyumlu arttırılmış gerçeklik yazılım geliştirme kiti sayesinde animasyonda düzlemsel görüntüleri ve 3B nesneleri gerçek zamanlı olarak tanımak ve izlemek için kullandığımız bu görme teknolojisi kullanıldı. Bu görüntü kayıt özelliği, geliştiricilerin 3B modeller ve diğer ortamlar gibi sanal nesneleri, bir mobil cihazın kamerasıyla görüntülendiğinde gerçek dünyadaki nesnelere göre konumlandırmasını ve yönlendirilmesini sağlar. Böylece okuyucunun perspektifi ile nesnenin konumlandırıldığı perspektif aynı konuma karşılık gelir. Böylece sanal nesnenin gerçek dünya sahnesinin bir parçası olduğu haline getirilir.
     Vuforia, Unity oyun motorunun bir uzantısı aracılığıyla Java dilinde Uygulama Programlama Arabirimleri (API) sağlar. Bu şekilde, SDK hem IOS, Android hem de UWP için yerel gelişimi desteklerken, Unity'de her iki platforma da kolayca taşınabilir AR uygulamalarının geliştirilmesini sağlar.
+    
+    Hazırlanan AR sahnesinden EEG sinyallerini toplama 
+Önceki iş paketleri ile hazırlanan AR arayüzü ve sahnemizi katılımcılara bir deney protokolü dahilinde izlettirip, arayüzü ve kitap deneyimlerini toplayacağız. Bunun için ilk önce EEG cihazı ile kitap tanıtımlarını AR uygulaması kullanılmadan kullanıcılara sunacağız. Kullanıcıların laboratuvar ortamında yalnız olarak 20 kitap üzerinde inceleme yapması istenecek. Her kitap belirli periyotlar dahilinde belirlenen sürede incelenecek ve her kitap değerlendirmesinden sonra katılımcıdan kitaba ait kişisel değerlendirme metriklerini doldurması istenecektir. Bu form laboratuvardaki bilgisayarda Python programlama dili ile hazırlanmış olacaktır. Daha sonra kısa bir ara sonrasında aynı kitaplar farklı sıralarda kullanıcıya değerlendirmesi için sunulacaktır. Bu ikinci oturumda kullanıcı tasarlanmış özgün AR arayüzü ile incelemelerini yapacak ve kişisel değerlendirmesini buradan yapacaktır.
 
 ## İş Dağılımı
 Grup Üyesi | Saat Yüzdesi
