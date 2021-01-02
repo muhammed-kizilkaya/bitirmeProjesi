@@ -76,10 +76,13 @@ Gerekli 3B modelleme ve animasyonların oluşturulmasında kullanılır.
 
 Vuforia, Artırılmış Gerçeklik uygulamalarının oluşturulmasını sağlayan mobil cihazlarla uyumlu arttırılmış gerçeklik yazılım geliştirme kiti sayesinde animasyonda düzlemsel görüntüleri ve 3B nesneleri gerçek zamanlı olarak tanımak ve izlemek için kullandığımız bu görme teknolojisi kullanıldı. Bu görüntü kayıt özelliği, geliştiricilerin 3B modeller ve diğer ortamlar gibi sanal nesneleri, bir mobil cihazın kamerasıyla görüntülendiğinde gerçek dünyadaki nesnelere göre konumlandırmasını ve yönlendirilmesini sağlar. Böylece okuyucunun perspektifi ile nesnenin konumlandırıldığı perspektif aynı konuma karşılık gelir. Böylece sanal nesnenin gerçek dünya sahnesinin bir parçası olduğu haline getirilir.
     Vuforia, Unity oyun motorunun bir uzantısı aracılığıyla Java dilinde Uygulama Programlama Arabirimleri (API) sağlar. Bu şekilde, SDK hem IOS, Android hem de UWP için yerel gelişimi desteklerken, Unity'de her iki platforma da kolayca taşınabilir AR uygulamalarının geliştirilmesini sağlar.
+    
+**Unreal Engine 4**
+Gerek duyulduğu takdirde ve unity istekleri karşılamadığı durumlarda ve ek olarak grafiksel iyileştirmeler detaylandırmalar gerektiği durumlarda unreal engine 4 kullanılması planlanmaktadır.
 
-**Akıllı cihazlar (Android cihazlar)**
-
-AR teknolojisini kullanabilmek için gereken ara sistem. Kullanılacak mobil cihazlar ile tasarlanan sahne katılımcılara izlettirilir incedlemer yapılacaktır.
+**Kullanılacak Platformlar** 
+İlk etapta windows üzerinden build edilecek test ve deneme aşamaları yapılacaktır. Ardından yukarıda da bahsedildiği gibi herhangi bir hata ile karşılaşılmadığı sürece WEBGL 
+üzerinden gidilmesi hedeflenmektedir. Ek olarak mobil uygulamaya da uyarlanacak ve gerekli adımlar uygulanacaktır.
 
 **Matlab ve Python Yazılımları**
 
