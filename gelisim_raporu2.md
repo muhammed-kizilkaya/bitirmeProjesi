@@ -34,9 +34,10 @@ Form gönderme işini ilk etapta Google Firebase ile düşündük,fakat firebase
 ![KodOrnegi](/images/kodOrnegientry.png)
 
 ## Araçlar
+
 Erzurum Teknik Üniversitesi Bilgisayar Mühendisliği laboratuvarı kullanılmaktadır. Laboratuvar ortamı EEG cihazından sinyallerin gürültü binmeyecek şekilde doğru alınabilmesi için sessiz ve floresan lambanın kullanılmadığı uygun ışıklandırmaya sahip bir ortamdır.
 
-Donanımsal araç olarak EEG sinyallerinin alınmasında Emotiv EPOC+ seçildi.
+Donanımsal araç olarak EEG sinyallerinin alınmasında Emotiv EPOC+ cihazı seçildi.
 
 **Emotiv EPOC+**
 
@@ -60,6 +61,10 @@ Vuforia, Artırılmış Gerçeklik uygulamalarının oluşturulmasını sağlaya
 **Akıllı cihazlar (Android cihazlar)**
 
 AR teknolojisini kullanabilmek için gereken ara sistem. Kullanılacak mobil cihazlar ile tasarlanan sahne katılımcılara izlettirilir incedlemer yapılacaktır.
+
+**Matlab ve Python Yazılımları**
+
+EEG sinyallerinin incelenmesi için cihazının sahip olduğu USB alıcısından sinyallerin alınıp işlenebilmesinde ve katılımcılara deney esnasında gerekli yönlendirmelerin (gözlerini aç, kapa vb.) yapılmasında kullanılacaktır. 
 
 ## İş Dağılımı
 Grup Üyesi | Saat Yüzdesi
