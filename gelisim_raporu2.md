@@ -69,6 +69,6 @@ EEG sinyallerinin incelenmesi için cihazının sahip olduğu USB alıcısından
 ## İş Dağılımı
 Grup Üyesi | Saat Yüzdesi
 ------------ | -------------
-Muhammed Bayat | %
-Ayşe Kartal | %
-Beyza Coşkun | %
+Muhammed Bayat | % 40
+Ayşe Kartal | % 30
+Beyza Coşkun | % 30
