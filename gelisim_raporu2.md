@@ -35,14 +35,15 @@ Form gönderme işini ilk etapta Google Firebase ile düşündük,fakat firebase
 ![KodOrnegi](/images/kodOrnegientry.png)
 
 ## Araçlar
-Erzurum Teknik Üniversitesi Bilgisayar Mühendisliği laboratuvarı kullanılmaktadır. Laboratuvar ortamı EEG sinyallerine gürültü binmeyecek şekilde sessiz ve uygun ışıklandırması yapılmış haldedir. 
-Mobil beyin sinyalleri elde etme cihazı 14 kanallı Emotiv EPOC+ kullanılmaktadır. EEG cihazı Uluslararası 10-20 konumlarına uygun olarak AF3, F7, F3, FC5, T7, P7, 02, 02, P8, T8, FC6, F4, F8, AF4 isimli elektrot konumlarından sinyal toplamaktadır. Örnekleme frekansı 128 sps (2048 Hz dahili), çözünürlüğü 14 bit 1 LSB ve bant genişliği 
-0.2-45 Hz’dir. Kablosuz özelliği olan cihaz 2.4 GHz bandında USB alıcısı ile kullanılabilmektedir. Cihazın ayrıca bir avantajı olarak nemli (saline) keçeli elektrotlar ile kullanabilmesidir. Bu durum katılımcıların saçlarının temiz kalmasını sağlamaktadır.
+Erzurum Teknik Üniversitesi Bilgisayar Mühendisliği laboratuvarı kullanılmaktadır. Laboratuvar ortamı EEG cihazından sinyallerin gürültü binmeyecek şekilde doğru alınabilmesi için sessiz ve floresan lambanın kullanılmadığı uygun ışıklandırmaya sahip bir ortamdır.
+**Emotiv EPOC+**
+Mobil ortamda gösterilecek kitap üstündeki sahneye karşı katılımcının ne kadar etkileşim göstereceğini beyin sinyalleriyle analiz ve elde etmede 14 kanallı Emotiv EPOC+ kullanılmaktadır. EEG cihazı beyinin Frontal, Parietal, Oksipital, Temporal,Serebellum loblarındaki etkileşimi inceleyebilmemiz için AF3, F7, F3, FC5, T7, P7, 02, 02, P8, T8, FC6, F4, F8, AF4 isimli elektrot konumlarından sinyal toplayıp datasetini oluşturmak için kullanılmaktadır. Cihazın örnekleme frekansı 128 sps (2048 Hz dahili), çözünürlüğü 14 bit 1 LSB ve bant genişliği 0.2-45 Hz’dir. Kablosuz özelliği sayesinde 2.4 GHz bandında USB alıcısı ile bilgisayar ortamında kullanılabilmektedir. Cihaz nemli keçeli elektrotlar ile kullanılır. Katılımcıların başına temas eden keçeler yeterince nemlendirilerek beyin sinyallerini daha sağlıklı bir şekilde alınabilmesi için gerekli elktriksel akımı oluşturmaya olanak sağlar.
+
 Diğer araçlardan olan 3B modelleme aracı Maya, oyun motoru Unity ve AR eklentisi Vuforia aşağıda detaylı olarak anlatılmıştır.
 
 **Maya ile 3B Modelleme ve Modellemelerin Unity’e Aktarılması**
 
-AR uygulamasında kullanılmakta ve animasyon için öncelikle 3B olarak modellenen karakterler yapılmıştır. Daha sonra bu modellemeleri Unity’e aktararak, ortam hareketleri katarak animasyon yapımı ve kitaplar hakkındaki bilgilerin yer alacağı arayüz tasarımına geçilecektir.
+Bu araçlar, AR uygulamasında kullanılmakta ve animasyon için öncelikle 3B olarak modellenen karakterler yapılmıştır. Daha sonra bu modellemeleri Unity’e aktararak, ortam hareketleri katarak animasyon yapımı ve kitaplar hakkındaki bilgilerin yer alacağı arayüz tasarımına geçilecektir.
 
 **Vuforia**
 
