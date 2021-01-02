@@ -28,6 +28,11 @@ Kitaptan resimleri artırılmış gerçeklik ile gerçekleştireceğimiz için �
 
 (Unity model animasyon ve sanal buton)
 
+# Öğrenilen Kavramlar
+
+Form gönderme işini ilk etapta Google Firebase ile düşündük,fakat firebase bi yerden sonra ücret istemesi dolayıysı ile en mantıklı çözümü alttaki kodda da olduğu gibi entry idleri vererek çözüm sağlandı.
+
+![KodOrnegi](/images/KodOrnegientry.png)
 
 ## Araçlar
 Erzurum Teknik Üniversitesi Bilgisayar Mühendisliği laboratuvarı kullanılmaktadır. Laboratuvar ortamı EEG sinyallerine gürültü binmeyecek şekilde sessiz ve uygun ışıklandırması yapılmış haldedir. 
