@@ -11,6 +11,23 @@
 
 ## Zorluklar
 
+![anket](/images/unityAnket.png)
+
+Katılımcılara yapılacak olan anket için ilk etapta basit bir arayüz ile unityden bir form ekranı oluşturuldu ve excel olarak google drive da tutuldu. Örnek olarak alt resimde de olduğu gibi veri yazma işi yapıldı. Zorlanılan kısım, unity oyun geliştirme programı olduğu için bu tarz arayüzsel ve formsal işlevler bakımından kaynak zorluğu çekildi.
+Çözüm olarak ise, google form oluştulup kaynak linki gösterilip, her bir textfield için enty kodlarına bakılıp koda eklendi.
+
+![anketgoogle](/images/anketGD.png)
+
+(unityden google form aracılığyla gönderilmiş örnek form)
+
+![unityAR](/images/unityAR.png)
+
+Kitaptan resimleri artırılmış gerçeklik ile gerçekleştireceğimiz için önemli bir kısım olan unity vuforia kısmında sürüm hataları aldığımız için unity 2021 için vuforia eklentisi ve kütüphanleri el ile eklendi. Bir diğer zorluk ise resimde gözüken mavi ekrana herhangi bir tuş veya kombinasyon olmadan kameradan mavi butona elin butona basmasıyla modelin (alt resimde) hareket etmesi ve elin butondan çekilince animasyonun durması bir diğer zorluk kısmı oldu. Çözüm için Udemy den vuforia eğitim seti alınıp detaylıca izlendikten sonra yapılabildi.
+
+![animasyon](/images/animasyon.png)
+
+(Unity model animasyon ve sanal buton)
+
 
 ## Araçlar
 Erzurum Teknik Üniversitesi Bilgisayar Mühendisliği laboratuvarı kullanılmaktadır. Laboratuvar ortamı EEG sinyallerine gürültü binmeyecek şekilde sessiz ve uygun ışıklandırması yapılmış haldedir. 
