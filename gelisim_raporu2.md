@@ -7,7 +7,7 @@
 
 ## Kaynaklar
 1. Pham, Tan ve Patrick. “Cortex-v2-Example” Github, 7 Temmuz 2020, github.com/Emotiv/cortex-v2-example.
-2.Baral, Luzan. "Save data to Google Spreadsheet from Unity 3D",Youtube, 26 Mayıs 2017, https://www.youtube.com/watch?v=z9b5aRfrz7M
+2. Baral, Luzan. "Save data to Google Spreadsheet from Unity 3D",Youtube, 26 Mayıs 2017, https://www.youtube.com/watch?v=z9b5aRfrz7M
 
 ## Zorluklar
 
