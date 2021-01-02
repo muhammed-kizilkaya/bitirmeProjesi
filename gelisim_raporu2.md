@@ -7,7 +7,7 @@
 
 ## Kaynaklar
 1. Pham, Tan ve Patrick. “Cortex-v2-Example” Github, 7 Temmuz 2020, github.com/Emotiv/cortex-v2-example.
-2. 
+2. International Journal of Human-Computer Studies https://doi.org/10.1016/j.ijhcs.2020.102579
 
 ## Zorluklar
 
