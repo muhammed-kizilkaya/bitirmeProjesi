@@ -22,7 +22,11 @@ Katılımcılara yapılacak olan anket için ilk etapta basit bir arayüz tasar�
 
 ![unityAR](/images/unityAR.png)
 
-Kitap üzerindeki resimler artırılmış gerçeklik ile gösterileceğinden projenin en önemli kısımlarından unity vuforia kısmında sürüm hataları alındı. Sürüm hatalarını gidermek adına unity 2021 için vuforia eklentisi ve kütüphanleri manuel olarak eklendi. Karşılaşılan bir diğer zorluk ise resimde gözüken mavi ekrana herhangi bir tuş veya kombinasyon olmadan kameradan mavi butona dokunarak modelin (alt resimde) hareket ettirilmesi ve parmağın butondan çekilince animasyonun durdurulması aşamalarıdır. Bu aşamada sorunların çözümlenmesinde Udemy'den alınan vuforia eğitim seti eğitimi detaylıca izlenildi.
+Kitap üzerindeki resimler artırılmış gerçeklik ile gösterileceğinden projenin en önemli kısımlarından unity vuforia kısmında sürüm hataları alındı. Sürüm hatalarını gidermek adına unity 2021 için vuforia [SDK](https://developer.vuforia.com/downloads/sdk) 
+ ve kütüphanleri manuel olarak eklendi. 
+
+
+Karşılaşılan bir diğer zorluk ise resimde gözüken mavi ekrana herhangi bir tuş veya kombinasyon olmadan kameradan mavi butona dokunarak modelin (alt resimde) hareket ettirilmesi ve parmağın butondan çekilince animasyonun durdurulması aşamalarıdır. Bu aşamada sorunların çözümlenmesinde Udemy'den alınan vuforia eğitim seti eğitimi detaylıca izlenildi.
 
 ![animasyon](/images/animasyon.png)
 
