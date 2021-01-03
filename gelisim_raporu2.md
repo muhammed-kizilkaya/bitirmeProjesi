@@ -51,6 +51,15 @@ Projenin bitiminde kullanılacak olan cihazda hangi COM portunu kullanmak istiyo
 
 ![serialPort](/images/serialPortOkuma.png)
 
+## BUG ##
+
+![bug](/images/bug.png)
+
+```
+PackageVersionLookUpdata.Update: Package Search Request failed UnityEngine.Debug:LogError (object) Vuforia.EditorClasses.PackageVersionLookupService:Update () UnityEditor.EditorApplication:Internal_CallUpdateFunctions () 
+```
+
+Build ederken şöyle bir bug almaktayız.
 
 ## Araçlar
 
