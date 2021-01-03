@@ -13,7 +13,7 @@ Gantt Şemasının düzeltilmiş hali eklenmiştir.
 
 ![anket](/images/unityAnket.png)
 
-Katılımcılara yapılacak olan anket için ilk etapta basit bir arayüz tasarımı ile unity üzerinde form ekranı oluşturuldu ve excel formatında Google Drive'a yedeklendi. Aşağıda veri yazma işileminin nasıl yapıldığı örnek bir resim ile gösterilmiştir. Bu aşamada unity bir oyun geliştirme programı olduğundan bu tarz arayüzsel ve formsal işlevlerde pek tercih edilmediğinden araştırma yapılırken kaynak zorluğu çekildi.
+Katılımcılara yapılacak olan anket için ilk etapta basit bir arayüz tasarımı ile unity üzerinde form ekranı oluşturuldu ve excel formatında Google Drive'a yedeklendi. Aşağıda veri yazma işleminin nasıl yapıldığı örnek bir resim ile gösterilmiştir. Bu aşamada unity bir oyun geliştirme programı olduğundan bu tarz arayüzsel ve formsal işlevlerde pek tercih edilmediğinden araştırma yapılırken kaynak zorluğu çekildi.
 Çözüm olarak, google form oluşturulup kaynak linki gösterilip, herbir textfield için entry kodlarına bakılıp koda eklendi.
 
 ![anketgoogle](/images/anketGD.png)
