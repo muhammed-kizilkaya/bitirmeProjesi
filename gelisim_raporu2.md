@@ -13,7 +13,7 @@ Gantt Şemasının düzeltilmiş hali eklenmiştir.
 
 ![anket](/images/unityAnket.png)
 
-Katılımcılara yapılacak olan anket için ilk etapta basit bir arayüz ile unityden bir form ekranı oluşturuldu ve excel olarak Google Drive'da tutuldu. Örnek olarak alt resimde de olduğu gibi veri yazma işi yapıldı. Zorlanılan kısım ise, unity oyun geliştirme programı olduğu için bu tarz arayüzsel ve formsal işlevler bakımından kaynak zorluğu çekildi.
+Katılımcılara yapılacak olan anket için ilk etapta basit bir arayüz tasarımı ile unity üzerinde form ekranı oluşturuldu ve excel formatında Google Drive'a yedeklendi. Aşağıda veri yazma işileminin nasıl yapıldığı örenek bir resim ile gösterilmiştir. Bu aşamada unity bir oyun geliştirme programı olduğundan bu tarz arayüzsel ve formsal işlevlerde pek tercih edilmediğinden araştırma yapılırken kaynak zorluğu çekildi.
 Çözüm olarak, google form oluşturulup kaynak linki gösterilip, herbir textfield için entry kodlarına bakılıp koda eklendi.
 
 ![anketgoogle](/images/anketGD.png)
@@ -22,7 +22,7 @@ Katılımcılara yapılacak olan anket için ilk etapta basit bir arayüz ile un
 
 ![unityAR](/images/unityAR.png)
 
-Kitaptaki resimleri artırılmış gerçeklik ile gerçekleştireceğimiz için önemli bir kısım olan unity vuforia kısmında sürüm hataları aldığımızdan dolayı unity 2021 için vuforia eklentisi ve kütüphanleri el ile eklendi. Bir diğer zorluk ise resimde gözüken mavi ekrana herhangi bir tuş veya kombinasyon olmadan kameradan mavi butona elin butona basmasıyla modelin (alt resimde) hareket etmesi ve elin butondan çekilince animasyonun durması bir diğer zorluk kısmı oldu. Çözüm için Udemy'den vuforia eğitim seti alınıp detaylıca izlendikten sonra yapılabildi.
+Kitap üzerindeki resimler artırılmış gerçeklik ile gösterileceğinden projenin en önemli kısımlarından unity vuforia kısmında sürüm hataları alındı. Sürüm hatalarını gidermek adına unity 2021 için vuforia eklentisi ve kütüphanleri manuel olarak eklendi. Karşılaşılan bir diğer zorluk ise resimde gözüken mavi ekrana herhangi bir tuş veya kombinasyon olmadan kameradan mavi butona dokunarak modelin (alt resimde) hareket ettirilmesi ve parmağın butondan çekilince animasyonun durdurulması aşamalarıdır. Bu aşamada sorunların çözümlenmesinde Udemy'den alınan vuforia eğitim seti eğitimi detaylıca izlenildi.
 
 ![animasyon](/images/animasyon.png)
 
@@ -30,7 +30,9 @@ Kitaptaki resimleri artırılmış gerçeklik ile gerçekleştireceğimiz için 
 
 # Öğrenilen Kavramlar
 
-Form gönderme işini ilk etapta Google Firebase ile düşündük,fakat firebase bir yerden sonra ücret istemesi dolayısı ile en mantıklı çözümü alttaki kodda da olduğu gibi entry id'leri vererek çözüm sağlandı.
+Form gönderme işlemini ilk etapta Google Firebase üzerinden yapılması planlandı fakat Firebase'de ilerleyen zamanlarda ücret kısıtlamasının sorun yaratabileceğinden dolayı en mantıklı çözüm olarak alttaki kodda da gösterildiği gibi entry id'leri verilerek çözüm sağlandı.
+
+
 
 ![KodOrnegi](/images/kodOrnegientry.png)
 
