@@ -45,6 +45,10 @@ WebGL, web tarayıcıları üzerinde 3D grafikler oluşturmak için kullanılan 
 
 Bizim projeye faydası gerek windows, gerek linux veya macos gibi işletim sistemlerinde dahi 3d modeli projeyi tam olarak açmamıza olanak sağlıyor olmasıdır. Çoğunlukla vuforia android üzerinde çalışmalar yapılyor, bu bizim için ek iş yorgunluğuna sebep olurken WEBGL sayesinde projeyi browser üzerinden açarak iş yükünü azaltmış olduk.
 
+***PySerial Kavramı Öğrenildi***
+
+Python ile seri port uygulamasını gerçekleştirebilmek için Linux işletim sistemi üzerinde PySeial paket kurulumu araştırıldı ve öğrenildi ancak projenin gereksinlerine yönelik olarak python yerine seri port uygulamasına C# üzerinde ilerlemeyi tercih ettik.
+
 ## Sağlanan kolaylıklar ##
 
 Projenin bitiminde kullanılacak olan cihazda hangi COM portunu kullanmak istiyorsak ve aynı şekilde COM portu kapatıp açtırmak veya hızlıca demo, test, send işlemleri yapmak ve cihazdan dönüt almayı kontrol etmek için ve  işlemleri daha da hızlı hale getirmek ve zaman kazanmak için C# üzerinden windows form ile arayüz geliştirildi.
