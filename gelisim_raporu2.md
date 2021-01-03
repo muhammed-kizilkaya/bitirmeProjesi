@@ -67,6 +67,11 @@ PackageVersionLookUpdata.Update: Package Search Request failed UnityEngine.Debug
 
 Build ederken şöyle bir bug almaktayız.
 
+## Örnek Proje GIF gösterimi ##
+
+![bug](/images/GIF-210103_180539.gif)
+
+
 ## Araçlar
 
 Erzurum Teknik Üniversitesi Bilgisayar Mühendisliği laboratuvarı kullanılmaktadır. Laboratuvar ortamı EEG cihazından sinyallerin gürültü binmeyecek şekilde doğru alınabilmesi için sessiz ve floresan lambanın kullanılmadığı uygun ışıklandırmaya sahip bir ortamdır.
