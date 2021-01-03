@@ -1,7 +1,7 @@
 # 2. Gelişim Raporu
 
 ## Düzeltmeler
- Gantt Şemasının düzeltilmiş hali eklenmiştir.
+Gantt Şemasının düzeltilmiş hali eklenmiştir.
 ![img](https://i.hizliresim.com/MG9AM3.png)
 
 
@@ -13,16 +13,16 @@
 
 ![anket](/images/unityAnket.png)
 
-Katılımcılara yapılacak olan anket için ilk etapta basit bir arayüz ile unityden bir form ekranı oluşturuldu ve excel olarak google drive da tutuldu. Örnek olarak alt resimde de olduğu gibi veri yazma işi yapıldı. Zorlanılan kısım, unity oyun geliştirme programı olduğu için bu tarz arayüzsel ve formsal işlevler bakımından kaynak zorluğu çekildi.
-Çözüm olarak ise, google form oluştulup kaynak linki gösterilip, her bir textfield için enty kodlarına bakılıp koda eklendi.
+Katılımcılara yapılacak olan anket için ilk etapta basit bir arayüz ile unityden bir form ekranı oluşturuldu ve excel olarak Google Drive'da tutuldu. Örnek olarak alt resimde de olduğu gibi veri yazma işi yapıldı. Zorlanılan kısım ise, unity oyun geliştirme programı olduğu için bu tarz arayüzsel ve formsal işlevler bakımından kaynak zorluğu çekildi.
+Çözüm olarak, google form oluşturulup kaynak linki gösterilip, herbir textfield için entry kodlarına bakılıp koda eklendi.
 
 ![anketgoogle](/images/anketGD.png)
 
-(unityden google form aracılığyla gönderilmiş örnek form)
+(Unity'den Google form aracılığyla gönderilmiş örnek form)
 
 ![unityAR](/images/unityAR.png)
 
-Kitaptan resimleri artırılmış gerçeklik ile gerçekleştireceğimiz için önemli bir kısım olan unity vuforia kısmında sürüm hataları aldığımız için unity 2021 için vuforia eklentisi ve kütüphanleri el ile eklendi. Bir diğer zorluk ise resimde gözüken mavi ekrana herhangi bir tuş veya kombinasyon olmadan kameradan mavi butona elin butona basmasıyla modelin (alt resimde) hareket etmesi ve elin butondan çekilince animasyonun durması bir diğer zorluk kısmı oldu. Çözüm için Udemy den vuforia eğitim seti alınıp detaylıca izlendikten sonra yapılabildi.
+Kitaptaki resimleri artırılmış gerçeklik ile gerçekleştireceğimiz için önemli bir kısım olan unity vuforia kısmında sürüm hataları aldığımızdan dolayı unity 2021 için vuforia eklentisi ve kütüphanleri el ile eklendi. Bir diğer zorluk ise resimde gözüken mavi ekrana herhangi bir tuş veya kombinasyon olmadan kameradan mavi butona elin butona basmasıyla modelin (alt resimde) hareket etmesi ve elin butondan çekilince animasyonun durması bir diğer zorluk kısmı oldu. Çözüm için Udemy'den vuforia eğitim seti alınıp detaylıca izlendikten sonra yapılabildi.
 
 ![animasyon](/images/animasyon.png)
 
@@ -30,7 +30,7 @@ Kitaptan resimleri artırılmış gerçeklik ile gerçekleştireceğimiz için �
 
 # Öğrenilen Kavramlar
 
-Form gönderme işini ilk etapta Google Firebase ile düşündük,fakat firebase bi yerden sonra ücret istemesi dolayıysı ile en mantıklı çözümü alttaki kodda da olduğu gibi entry idleri vererek çözüm sağlandı.
+Form gönderme işini ilk etapta Google Firebase ile düşündük,fakat firebase bir yerden sonra ücret istemesi dolayısı ile en mantıklı çözümü alttaki kodda da olduğu gibi entry id'leri vererek çözüm sağlandı.
 
 ![KodOrnegi](/images/kodOrnegientry.png)
 
