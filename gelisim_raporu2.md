@@ -43,11 +43,11 @@ using System.IO.Ports ``` gibi  kütüphaneleri haricen indirip referans göster
 
 WebGL, web tarayıcıları üzerinde 3D grafikler oluşturmak için kullanılan platform bağımsız ve ücretsiz bir API’dir. Ayrıca internet sayfalarında 3 boyutlu görüntüler üretmeye yarayan arabirimdir. HTML 5 ile birlikte çıkan bu sisteme şu anda birçok tarayıcılar tarafından destek verilmekte ve Google Chrome,Firefox gibi sistemlerde kullanılmaktadır.
 
-Bizim projeye faydası gerek windows, gerek linux veya macos gibi işletim sistemlerinde dahi 3d modeli projeyi tam olarak açmamıza olanak sağlıyor olmasıdır. Çoğunlukla vuforia android üzerinde çalışmalar yapılyor, bu bizim için ek iş yorgunluğuna sebep olurken WEBGL sayesinde projeyi browser üzerinden açarak iş yükünü azaltmış olduk.
+Bizim projeye faydası gerek windows, gerek linux veya macos gibi işletim sistemlerinde 3d modeli projeyi tam olarak açmamıza olanak sağlıyor olmasıdır.
 
 ***PySerial Kavramı Öğrenildi***
 
-Python ile seri port uygulamasını gerçekleştirebilmek için Linux işletim sistemi üzerinde PySeial paket kurulumu araştırıldı ve öğrenildi ancak projenin gereksinlerine yönelik olarak python yerine seri port uygulamasına C# üzerinde ilerlemeyi tercih ettik.
+Daha öncesinden gerekli şekilde ayarlanmış EMOTİV cihazına başla komutu alması gerektiği ayarlandı. Pyserial kavramı araştırıldı ve öğrenildi.
 
 ## Sağlanan kolaylıklar ##
 
