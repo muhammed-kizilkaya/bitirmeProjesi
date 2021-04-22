@@ -13,5 +13,9 @@
 
 ## Araçlar
 
-Python MNE
-PySide
+- **Unity Vuforia** ( *AR sahne tasarımı* )
+- **EchoAr** (*Ar için alternatif "sınırlı erişim istekleri karşılamadığı için devam edilmedi.*) 
+- **Python MNE** (*MEG/EEG analizi- EDF formatına dönüştürülmüş veriyi işleme*)
+- **Python Pyside2- Pyside6, PyQt5, Qt Designer, QtCreator** (*Arayüz için kullanılan python araçları*) 
+- **Emotiv PRO**(*Beyin sinyallerini takip etmemiz ve kayıt alıp düzenlememiz için gerekli uygulama*)
+- **Vs Code, PyCharm 2020.3.5, Spyder(Anaconda3)**
