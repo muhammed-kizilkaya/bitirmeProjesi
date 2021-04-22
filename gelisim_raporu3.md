@@ -4,8 +4,11 @@
 
 
 ## Kaynaklar
+1.
+2.
 
 ## Zorluklar
 
+### Çözülemeyen Sorunlar
 
 ## Araçlar
