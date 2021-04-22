@@ -7,5 +7,6 @@
 
 ## Zorluklar
 
+### Çözülemeyen Sorunlar
 
 ## Araçlar
