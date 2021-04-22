@@ -12,3 +12,6 @@
 ### Çözülemeyen Sorunlar
 
 ## Araçlar
+
+Python MNE
+PySide
