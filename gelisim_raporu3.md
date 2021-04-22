@@ -3,6 +3,8 @@
 ## Düzeltmeler
 
 
+![Marker](/images/marker_ekran_kaydi1.gif)
+
 ## Kaynaklar
 1. Wanderson. _"PYTHON and QT QUICK - Custom Buttons With QML And JavaScript - [MODERN GUI]"_, Youtube, 24 Kasım 2020, https://www.youtube.com/watch?v=JhPXOcmXf8I.
 2. Temlioğlu, Eyüp. _"PyQt5 Signal - Slot (İşaret - İşlev) Kavramı"_, WebPage, 20 Şubat 2019, http://yapayzekalabs.blogspot.com/2019/02/pyqt5-signal-slot.html
