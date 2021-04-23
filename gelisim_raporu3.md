@@ -1,6 +1,7 @@
 # 1. Gelişim Raporu (Bitirme Projesi 2)
 
 ## Düzeltmeler
+<<<<<<< HEAD
 - Unity kısmında önceden yapılan Çifte Minare modeline ek olarak Yakutiye Medresesi ve Erzurum Kalesi olmak üzere 2 model ve bu modellerin dokuları eklenmiştir. Ayrıca bu modellere AR uygulaması yapılmıştır.
 <p float="left">
   <img src="/images/unityEkran1.png" width="500" height="250"/>
@@ -23,6 +24,13 @@
   <img src="/images/targetMinare.png" width="330" height="220" /> 
   <img src="/images/targetYakutiye.png" width="330"  height="220" />
 </p>
+=======
+- Unity kısmında önceden yapılan modellere ek olarak Yakutiye Medresesi ve Erzurum Kalesi olmak üzere 2 model ve bu modellerin dokuları eklenmiştir. Ayrıca bu modellere AR tasarımı yapılmıştır.
+![unityEkranı1](/images/unityEkran1.png)
+![unityEkranı2](/images/unityEkran2.png)
+![unityEkranı3Canvas](/images/unityEkran3.png)
+![unityGif](/images/unityvideo.gif)
+>>>>>>> 851c1b5a45e25e0037116c73028c9022c47dbebc
 
 - 1.dönemde bahsedilen final sunumuna ek olarak ilerleme kat edilen emotiv kısmındaki marker hatası giderildi. Aşağıda da görüldüğü gibi Python ve Emotiv arasında WebSocket ile local bağlantı kurulup örnek bir test marker kaydı alındı.
 ![Marker](/images/marker_ekran_kaydi1.gif)
@@ -75,7 +83,9 @@ Python Selenium ile veya eşdeğer farklı bir metot ile gui için gerekli düze
     Unity oyun motoru, sanal ortamı tasarlamaya çalışırken çalışmayı önizlemek için bir AR modu sunar.
 - **Unity Vuforia**
     Artırılmış Gerçeklik uygulamalarının oluşturulmasında, 3B nesneleri gerçek zamanlı olarak görmek ve incelemek için kullanıldı. Ayrıca 3B modelleri ve diğer sanal nesneleri, mobil cihazın kamerasıyla görüntülendiğinde gerçek dünyaya göre konumlandırılmasını, yönlendirilmesini de sağlar. Böylece okuyucunun zihninde metinde tasvir edilen mekanın canlandırılması ve sanal nesnenin gerçek dünyanın bir parçası haline getirilmesi sağlanır. Bu işlemleri Vuforia, Unity'de Programlama Arabirimleri (API), SDK'lar (Andoid vs.) ile gerçekleştirerek AR sahne tasarımı uygulamalarının geliştirilmesini sağlar. 
-- **EchoAr** (*Ar için alternatif "sınırlı erişim istekleri karşılamadığı için devam edilmedi.*) 
+- **EchoAr**
+    Hızlı bir şekilde 3B uygulama ve içerik oluşturup dağıtmasına yardımcı olmak için araçlar ve sunucu tarafı altyapısı sağlayan bir VR/AR bulut platformudur. Esnek bulut altyapısı, 3D içeriği kolayca yönetip AR uygulamalarında çok basit bir yolla yayınlamasını sağlar.
+(*Ar için alternatif "sınırlı erişim istekleri karşılamadığı için devam edilmedi.*) 
 - **Python MNE** (*MEG/EEG analizi- EDF formatına dönüştürülmüş veriyi işleme*)
 - **Python Pyside2- Pyside6, PyQt5, Qt Designer, QtCreator** (*Arayüz için kullanılan python araçları*) 
 - **Emotiv PRO**(*Beyin sinyallerini takip etmemiz ve kayıt alıp düzenlememiz için gerekli uygulama*)
