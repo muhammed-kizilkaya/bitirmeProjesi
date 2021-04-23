@@ -1,7 +1,6 @@
 # 1. Gelişim Raporu (Bitirme Projesi 2)
 
 ## Düzeltmeler
-<<<<<<< HEAD
 - Unity kısmında önceden yapılan Çifte Minare modeline ek olarak Yakutiye Medresesi ve Erzurum Kalesi olmak üzere 2 model ve bu modellerin dokuları eklenmiştir. Ayrıca bu modellere AR uygulaması yapılmıştır.
 <p float="left">
   <img src="/images/unityEkran1.png" width="500" height="250"/>
@@ -20,9 +19,9 @@
 
 - Multi Target için seçilen resimler yani target'lar aşağıda gösterilmiştir. Her target, modellerin kendi resimlerine göre ayarlanmıştır. Böylece birbirlerinden ayırt edilmesi kolaylaştırılmıştır.
 <p float="left">
-  <img src="/images/targetKale.png" width="330" height="220" />
-  <img src="/images/targetMinare.png" width="330" height="220" /> 
-  <img src="/images/targetYakutiye.png" width="330"  height="220" />
+  <img src="/images/targetKale.png" width="300" height="220" />
+  <img src="/images/targetMinare.png" width="300" height="220" /> 
+  <img src="/images/targetYakutiye.png" width="300"  height="220" />
 </p>
 =======
 - Unity kısmında önceden yapılan modellere ek olarak Yakutiye Medresesi ve Erzurum Kalesi olmak üzere 2 model ve bu modellerin dokuları eklenmiştir. Ayrıca bu modellere AR tasarımı yapılmıştır.
