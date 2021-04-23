@@ -32,7 +32,6 @@
 1. Wanderson. _"PYTHON and QT QUICK - Custom Buttons With QML And JavaScript - [MODERN GUI]"_, Youtube, 24 Kasım 2020, https://www.youtube.com/watch?v=JhPXOcmXf8I.
 2. Temlioğlu, Eyüp. _"PyQt5 Signal - Slot (İşaret - İşlev) Kavramı"_, WebPage, 20 Şubat 2019, http://yapayzekalabs.blogspot.com/2019/02/pyqt5-signal-slot.html
 3. Amcalar, Armagan. _“Wits — A Node.js library that reads your mind with Emotiv EPOC EEG headset”_, Github, 11 Mart 2019, https://github.com/dashersw/wits
-4. Deny. _“Create Multiple Target Augmented Reality With Unity 2017.3 & Vuforia”_, Youtube, 24 Ara. 2017, https://www.youtube.com/watch?v=kXwcjBZxQKo&t=229s
 
 
 ## Zorluklar
@@ -71,22 +70,22 @@
 ![eexe](/images/exegui.gif)
 
 ### Çözülemeyen Sorunlar
-Timer fonksiyonu consolda sorunsuz çalışırken gerekli seslendirmeleri ve timer beep sesini çıkartırken , self.ui.timer_label.set_text(timer()) yerinde yani label update kısmında sadece set text()-> 0 çıktısı veriyor. Alternatif olarak Qtimer kullandık henüz label setText sorunu devam ediyor. Farklı çözüm yolları aramaktayız.
+- Baseline ekranında, timer fonksiyonu consolda sorunsuz çalışırken gerekli seslendirmeleri ve timer beep sesini çıkartırken , self.ui.timer_label.set_text(timer()) yerinde yani label update kısmında sadece set text()-> 0 çıktısı veriyor. Alternatif olarak Qtimer kullanıldı henüz label setText sorunu devam ediyor. Farklı çözüm yolları aranılmaktadır.
 
-3 Numaralı butonda kayıt almamız için gerekli kodlar hazır iken karşılaştığımız sorun, marker.py (üsteki gifte örnek verilen python dosyası)  main.py(gui) de sadece import edildiğinde bile direk consolda kayda başlaması ve arayüzü çalıştırmaması.
+- Arayüz ana sayfa ekran resminde 3 numara ile gösterilen buton ile beyin sinyallerinin kayıt alma işlemi için gerekli kodlar hazır iken karşılaşılan sorun, marker.py (üstteki gifte örnek verilen python dosyası) main.py(gui) de sadece import edildiğinde bile direkt consolda kayda başlaması ve arayüzü çalıştırılamaması çözülemeyen diğer bir sorundur.
 
-Buton click olayı ile kayıt tutmasını ve timer ile süre tutmasını ayarlamaya çalışmaktayız. Alternatif farklı çözümler arayışımız devam etmektedir.
+- Buton click olayı ile eş zamanlı olarak kayıt tutma ve timer süresinin tutulmasının gerçekleştirmesi yapılmaya çalışılmaktadır. Alternatif farklı çözümler aranmaya devam etmektedir.
 
-Python Selenium ile veya eşdeğer farklı bir metot ile gui için gerekli düzenlemeler için çalışmalar,araştırmalar devam etmektedir.
+- Python Selenium veya eşdeğer farklı bir metot ile gui tasarımında gerekli düzenlemeler için çalışmalar devam etmektedir.
 
-### Çok kısa kodların amaçları 
+### Kısaca Kodların Amaçları
 
 > browser.py -> python gui QWebEngineView ile websitesi gösterme Anket için kullanacak
 > main.py -> Ana kodlarımızın düzenlendiği alan
 > setup.py -> Programımızın exe haline çevirmek için ayarlanmış kod hali -> cmd  > python  setup.py build build adlı klasöre tüm kütüphanelerin dll ile birlikte sorunsuz bir exe çıktısı verdi
 > ui_main.py, ui_function.py -> arayüzün .py dönüştürülmüş hali
 > QT klasördeki kodlar ise aynı gui farklı denenmiş hali, qml javascript çok yakın bir dil ve tasarım odaklı kullanıldı
-> 
+
 
 ## Araçlar
 
