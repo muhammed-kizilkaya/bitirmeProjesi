@@ -1,11 +1,31 @@
 # 1. Gelişim Raporu (Bitirme Projesi 2)
 
 ## Düzeltmeler
-- Unity kısmında önceden yapılan modellere ek olarak Yakutiye Medresesi ve Erzurum Kalesi olmak üzere 2 model ve bu modellerin dokuları eklenmiştir. Ayrıca bu modellere AR tasarımı yapılmıştır.
-![unityEkranı1](/images/unityEkran1.png)
-![unityEkranı2](/images/unityEkran2.png)
-![unityEkranı3Canvas](/images/unityEkran3.png)
-![unityGif](/images/unityvideo.gif)
+- Unity kısmında önceden yapılan Çifte Minare modeline ek olarak Yakutiye Medresesi ve Erzurum Kalesi olmak üzere 2 model ve bu modellerin dokuları eklenmiştir. Ayrıca bu modellere AR uygulaması yapılmıştır.
+<p float="left">
+  <img src="/images/unityEkran1.png" width="500" height="200"/>
+  <img src="/images/unityEkran2.png" width="500" height="200" /> 
+</p>
+
+- Unity ekranında kamera açılınca modellerin AR ile gösterilmesi sırasında her modelin boyutunun ve dönmelerinin ayarlanması için Canvas ekranı ve ekranın üzerine butonlar eklendi. Böylece modeller istenildiği kadar döndürülecek ve boyutu ayarlanabilecektir.  
+<p float="left">
+  <img src="/images/unityEkran3.png" width="800" height="400"/>
+</p>
+
+
+- Aşağıdaki ekran videosunda görüldüğü gibi vuforia eklentisi kullanılarak 3 model AR ile gösterilmiştir. Ayrıca Multi Target yapmamız sayesinde tek ekranda farklı resimler göstererek, AR geçişi hızlı ve kolay bir şekilde sağlanmış oldu.
+
+<p float="left">
+  <img src= "/images/unityvideo.gif" width="1100" height="600"/>
+
+</p>
+
+- Multi Target için seçilen resimler yani target'lar aşağıda gösterilmiştir. Her target, modellerin kendi resimlerine göre ayarlanmıştır. Böylece birbirlerinden ayırt edilmesi kolaylaştırılmıştır.
+<p float="left">
+  <img src="/images/targetKale.png" width="330" height="220" />
+  <img src="/images/targetMinare.png" width="330" height="220" /> 
+  <img src="/images/targetYakutiye.png" width="330"  height="220" />
+</p>
 
 - 1.dönemde bahsedilen final sunumuna ek olarak ilerleme kat edilen emotiv kısmındaki marker hatası giderildi. Aşağıda da görüldüğü gibi Python ve Emotiv arasında WebSocket ile local bağlantı kurulup örnek bir test marker kaydı alındı.
 
