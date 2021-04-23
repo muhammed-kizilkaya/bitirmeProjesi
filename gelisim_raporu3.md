@@ -3,8 +3,8 @@
 ## Düzeltmeler
 - Unity kısmında önceden yapılan Çifte Minare modeline ek olarak Yakutiye Medresesi ve Erzurum Kalesi olmak üzere 2 model ve bu modellerin dokuları eklenmiştir. Ayrıca bu modellere AR uygulaması yapılmıştır.
 <p float="left">
-  <img src="/images/unityEkran1.png" width="500" height="200"/>
-  <img src="/images/unityEkran2.png" width="500" height="200" /> 
+  <img src="/images/unityEkran1.png" width="500" height="250"/>
+  <img src="/images/unityEkran2.png" width="500" height="250" /> 
 </p>
 
 - Unity ekranında kamera açılınca modellerin AR ile gösterilmesi sırasında her modelin boyutunun ve dönmelerinin ayarlanması için Canvas ekranı ve ekranın üzerine butonlar eklendi. Böylece modeller istenildiği kadar döndürülecek ve boyutu ayarlanabilecektir.  
@@ -12,12 +12,9 @@
   <img src="/images/unityEkran3.png" width="800" height="400"/>
 </p>
 
-
 - Aşağıdaki ekran videosunda görüldüğü gibi vuforia eklentisi kullanılarak 3 model AR ile gösterilmiştir. Ayrıca Multi Target yapmamız sayesinde tek ekranda farklı resimler göstererek, AR geçişi hızlı ve kolay bir şekilde sağlanmış oldu.
-
 <p float="left">
   <img src= "/images/unityvideo.gif" width="1100" height="600"/>
-
 </p>
 
 - Multi Target için seçilen resimler yani target'lar aşağıda gösterilmiştir. Her target, modellerin kendi resimlerine göre ayarlanmıştır. Böylece birbirlerinden ayırt edilmesi kolaylaştırılmıştır.
@@ -28,16 +25,16 @@
 </p>
 
 - 1.dönemde bahsedilen final sunumuna ek olarak ilerleme kat edilen emotiv kısmındaki marker hatası giderildi. Aşağıda da görüldüğü gibi Python ve Emotiv arasında WebSocket ile local bağlantı kurulup örnek bir test marker kaydı alındı.
-
 ![Marker](/images/marker_ekran_kaydi1.gif)
+
 
 ## Kaynaklar
 1. Wanderson. _"PYTHON and QT QUICK - Custom Buttons With QML And JavaScript - [MODERN GUI]"_, Youtube, 24 Kasım 2020, https://www.youtube.com/watch?v=JhPXOcmXf8I.
 2. Temlioğlu, Eyüp. _"PyQt5 Signal - Slot (İşaret - İşlev) Kavramı"_, WebPage, 20 Şubat 2019, http://yapayzekalabs.blogspot.com/2019/02/pyqt5-signal-slot.html
 
-## Zorluklar
 
-Projenin ilerleyen kısımlarında ihtiyaç duyulduğu için ve işleri daha düzenli ve seri EEG kaydı alıp süre tutmamız ve belirli bir süre içinde tüm adımların zamanlama ile yapılması için bir arayüz tasarımı yapılmaya ve araştırılmaya başlandı. Tüm dillerin arayüz kütüphanleri araştırıldı, istekleri karşılayan bir kütüphane düşünüldü ve araştırmalar sırasında, yeni karşılaştığımız bir arayüz programı öğrenildi(QT5 Designer), Gerekli tasarım ve kodlar yazıldı.   
+## Zorluklar
+Projenin ilerleyen kısımlarında ihtiyaç duyulduğu için ve işlerin daha düzenli ve seri bir şekilde EEG kaydı alıp süre tutmamız ve belirli bir süre içinde tüm adımların zamanlama ile yapılması için bir arayüz tasarımı yapılmaya ve araştırılmaya başlandı. Tüm dillerin arayüz kütüphanleri araştırıldı, istekleri karşılayan bir kütüphane düşünüldü ve araştırmalar sırasında, yeni karşılaştığımız bir arayüz programı öğrenildi(QT5 Designer), Gerekli tasarım ve kodlar yazıldı.   
 
 ![QTdesing](/images/qtDesignerGui.png)
 
@@ -63,6 +60,7 @@ Bunun çözümü için kullanıcının ilk olarak ekrana odaklanıp 15 saniye bo
 
 ![gui3](/images/gui3.png)
 15 saniye dolumundan sonra ise bu sefer gözleri kapalı bir şekilde tekrardan 15 saniye süre tutuldu. 
+
 ### Çözülemeyen Sorunlar
 Timer fonksiyonu consolda sorunsuz çalışırken gerekli seslendirmeleri ve timer beep sesini çıkartırken , self.ui.timer_label.set_text(timer()) yerinde yani label update kısmında sadece set text()-> 0 çıktısı veriyor. Alternatif olarak Qtimer kullandık henüz label setText sorunu devam ediyor. Farklı çözüm yolları aramaktayız.
 
