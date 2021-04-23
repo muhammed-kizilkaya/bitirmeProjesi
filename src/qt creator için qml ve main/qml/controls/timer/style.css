@@ -1,0 +1,16 @@
+body {
+  background-color: #2980b9;
+  text-align: center;
+  margin-top:1%;
+}
+.holas,.timer {
+  font: 25px Segoe UI Light;
+  background-color: #3498db;
+  color: #fff;
+  border: 1px solid #FFF;
+  width: 250px;
+  margin: 0 auto;
+  padding: 10px;
+  
+}
+.holas{display: none;}
