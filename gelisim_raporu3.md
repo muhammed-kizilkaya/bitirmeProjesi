@@ -82,7 +82,7 @@ Python Selenium ile veya eşdeğer farklı bir metot ile gui için gerekli düze
     Autodesk'in 3B bilgisayar animasyonu oluşturmaya olanak tanıyan yazılım geliştirme aracıdır. 3B animasyon, modelleme, işleme, gölgeleme gibi araçlarla 3B varlıkları oluşturmalarına olanak tanır. Diğer benzer 3B modelleme ve işleme yazılımı araçlarından daha fazla işletim sistemiyle uyumlu olduğundan tercih edildi.
     
 - **EchoAr**
-    Hızlı bir şekilde 3B uygulama ve içerik oluşturup dağıtmasına yardımcı olmak için araçlar ve sunucu tarafı altyapısı sağlayan bir VR/AR bulut platformudur. Esnek bulut altyapısı, 3D içeriği kolayca yönetip AR uygulamalarında çok basit bir yolla yayınlamasını sağlar. **Ücretsiz versiyonunda Ar için alternatif sınırlı erişim istekleri karşılamadığı ve platforma yüklenecek dosya boyutunun yetersiz olmasından dolayı devam edilmedi.**
+    Hızlı bir şekilde 3B uygulama ve içerik oluşturup dağıtmasına yardımcı olmak için araçlar ve sunucu tarafı altyapısı sağlayan bir VR/AR bulut platformudur. Esnek bulut altyapısı, 3D içeriği kolayca yönetip AR uygulamalarında çok basit bir yolla yayınlamasını sağlar. Ücretsiz versiyonunda Ar için alternatif sınırlı erişim istekleri karşılamadığı ve platforma yüklenecek dosya boyutunun yetersiz olmasından dolayı devam edilmedi.
     
 - **Python MNE** 
     MEG, EEG gibi insan nörofizyolojik verileri keşfetmek, görselleştirmek ve analiz etmek için EDF formatına dönüştürülmüş veriyi işlemeye olanak sağlayan açık kaynaklı bir Python paketidir.
@@ -91,7 +91,7 @@ Python Selenium ile veya eşdeğer farklı bir metot ile gui için gerekli düze
     Grafiksel arayüz (GUI) sunmak için kullanılan Python kütüphaneleridir.
     
 - **Emotiv PRO**
-    Beyin sinyallerini analiz edip, takip etmeyi sağlayan ve sinyallerin kayıt alınıp düzenlenmesinde gerekli cihaz.
+    Beyin sinyallerini analiz edip, takip etmeyi sağlayan ve sinyallerin kayıt alınıp düzenlenmesini sağlayan program.
     
 - **Vs Code, PyCharm 2020.3.5, Spyder(Anaconda3)**
-    kullanılan programlama araçları.
+    Kullanılan programlama araçları.
