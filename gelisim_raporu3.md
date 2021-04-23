@@ -80,6 +80,10 @@ Buton click olayı ile kayıt tutmasını ve timer ile süre tutmasını ayarlam
 
 Python Selenium ile veya eşdeğer farklı bir metot ile gui için gerekli düzenlemeler için çalışmalar,araştırmalar devam etmektedir.
 
+
+Hali hazırda farklı bir python kodu ile web browser çalıştıbiliyorken kendi ana kodumuza aktarmakta problemler yaşamaktayız. Hata kaynağının mainwindow ve QDialogtan kaynaklı olduğunu düşünmekteyiz.
+Sorunun devam etmesi durumunda python EEL kütüphanesi ile javascript kodu yazıp alternatif olarak devam etmeyi planlamaktayız. Henüz net bir seçim yapılmamak ile beraber araştırmalar ve değişiklikler devam etmekte ve sürekli projeye uygun güncellemeler yapılmaktadır.
+
 ### Çok kısa kodların amaçları 
 
 > browser.py -> python gui QWebEngineView ile websitesi gösterme Anket için kullanacak
