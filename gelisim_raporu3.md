@@ -53,7 +53,8 @@ Buton click olayı ile kayıt tutmasını ve timer ile süre tutmasını ayarlam
 Python Selenium ile veya eşdeğer farklı bir metot ile gui için gerekli düzenlemeler için çalışmalar,araştırmalar devam etmektedir.
 
 ## Araçlar
-
+- **Unity**
+    Unity oyun motoru, sanal ortamı tasarlamaya çalışırken çalışmayı önizlemek için bir AR modu sunar.
 - **Unity Vuforia**
     Artırılmış Gerçeklik uygulamalarının oluşturulmasında, 3B nesneleri gerçek zamanlı olarak görmek ve incelemek için kullanıldı. Ayrıca 3B modelleri ve diğer sanal nesneleri, mobil cihazın kamerasıyla görüntülendiğinde gerçek dünyaya göre konumlandırılmasını, yönlendirilmesini de sağlar. Böylece okuyucunun zihninde metinde tasvir edilen mekanın canlandırılması ve sanal nesnenin gerçek dünyanın bir parçası haline getirilmesi sağlanır. Bu işlemleri Vuforia, Unity'de Programlama Arabirimleri (API), SDK'lar (Andoid vs.) ile gerçekleştirerek AR sahne tasarımı uygulamalarının geliştirilmesini sağlar. 
 - **EchoAr** (*Ar için alternatif "sınırlı erişim istekleri karşılamadığı için devam edilmedi.*) 
