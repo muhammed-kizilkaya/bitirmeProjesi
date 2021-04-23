@@ -1,7 +1,8 @@
 # 1. Gelişim Raporu (Bitirme Projesi 2)
 
 ## Düzeltmeler
-
+- Unity kısmında önceden yapılan modellere ek olarak Yakutiye Medresesi ve Erzurum Kalesi olmak üzere 2 model ve bu modellerin dokuları eklenmiştir. Ayrıca bu modellere AR tasarımı yapılmıştır.
+- 1.dönemde bahsedilen final sunumuna ek olarak ilerleme kat edilen emotiv kısmındaki marker hatası giderildi. Aşağıda da görüldüğü gibi Python ve Emotiv arasında WebSocket ile local bağlantı kurulup örnek bir test marker kaydı alındı.
 
 ![Marker](/images/marker_ekran_kaydi1.gif)
 
