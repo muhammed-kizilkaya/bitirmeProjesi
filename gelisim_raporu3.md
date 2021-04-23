@@ -3,8 +3,8 @@
 ## Düzeltmeler
 - Unity kısmında önceden yapılan Çifte Minare modeline ek olarak Yakutiye Medresesi ve Erzurum Kalesi olmak üzere 2 model ve bu modellerin dokuları eklenmiştir. Ayrıca bu modellere AR uygulaması yapılmıştır.
 <p float="left">
-  <img src="/images/unityEkran1.png" width="600" height="300"/>
-  <img src="/images/unityEkran2.png" width="600" height="300" /> 
+  <img src="/images/unityEkran1.png" width="500" height="200"/>
+  <img src="/images/unityEkran2.png" width="500" height="200" /> 
 </p>
 
 - Unity ekranında kamera açılınca modellerin AR ile gösterilmesi sırasında her modelin boyutunun ve dönmelerinin ayarlanması için Canvas ekranı ve ekranın üzerine butonlar eklendi. Böylece modeller istenildiği kadar döndürülecek ve boyutu ayarlanabilecektir.  
@@ -23,8 +23,8 @@
 - Multi Target için seçilen resimler yani target'lar aşağıda gösterilmiştir. Her target, modellerin kendi resimlerine göre ayarlanmıştır. Böylece birbirlerinden ayırt edilmesi kolaylaştırılmıştır.
 <p float="left">
   <img src="/images/targetKale.png" width="330" height="220" />
-  <img src="/images/targetMinare.png" width="350" height="220" /> 
-  <img src="/images/targetYakutiye.png" width="350"  height="220" />
+  <img src="/images/targetMinare.png" width="330" height="220" /> 
+  <img src="/images/targetYakutiye.png" width="330"  height="220" />
 </p>
 
 - 1.dönemde bahsedilen final sunumuna ek olarak ilerleme kat edilen emotiv kısmındaki marker hatası giderildi. Aşağıda da görüldüğü gibi Python ve Emotiv arasında WebSocket ile local bağlantı kurulup örnek bir test marker kaydı alındı.
