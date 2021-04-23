@@ -34,27 +34,27 @@
 
 
 ## Zorluklar
-Projenin ilerleyen kısımlarında ihtiyaç duyulduğu için ve işlerin daha düzenli ve seri bir şekilde EEG kaydı alıp süre tutmamız ve belirli bir süre içinde tüm adımların zamanlama ile yapılması için bir arayüz tasarımı yapılmaya ve araştırılmaya başlandı. Tüm dillerin arayüz kütüphanleri araştırıldı, istekleri karşılayan bir kütüphane düşünüldü ve araştırmalar sırasında, yeni karşılaştığımız bir arayüz programı öğrenildi(QT5 Designer), Gerekli tasarım ve kodlar yazıldı.   
+Projenin ilerleyen kısımlarında EEG kaydı ile tüm adımların sınırlı bir süre içinde ilerlemesi gerektiği ve işlerin daha düzenli ve seri bir şekilde devam etmesi gerektiği için  bir arayüz tasarımı yapılmaya ve araştırılmaya başlanıldı. Tüm dillerin arayüz kütüphaneleri araştırıldı, istekleri karşılayan bir kütüphane düşünüldü ve araştırmalar sırasında, yeni karşılaşılan bir arayüz programı öğrenildi(QT5 Designer). Daha sonra gerekli tasarım yapıldı ve kodlar yazıldı.   
 
 ![QTdesing](/images/qtDesignerGui.png)
 
-Arayüzün tasarım kısmı .QML ile kodlama kısmı python ile hazırlandı. Bi farklı pyside2 de yine qt ait olan .ui tasarım yapabilen ama genel işlevi aynı olan arayüz programı.
-
+Arayüzün tasarım kısmı .QML ile, kodlama kısmı ise python ile hazırlandı. Farklı olan pyside2 de yine qt'ye ait olan ve .ui tasarım yapabilen ama genel işlevi aynı olan arayüz programıdır.
 
 
 **self.browser = QWebEngineView()**
-**PyQt5.QtWebEngine**  kütüphanesi kullanılarak GUI üzerinde timer'a bağlı olarak daha önce hazırlanmış olan anket sorularımız ile belirli sürede doldurmasını isteyeceğimiz için arayüze ekleme adımını uyguladık. Doc ve github profillerinde uygun bir kod bulup gerekli düzenlemeleri yaptık.
+**PyQt5.QtWebEngine**  kütüphanesi kullanılarak GUI üzerinde timer'a bağlı olarak daha önce hazırlanmış olan anket soruları ile katılımcılardan belirli sürede doldurulması istenildiği için arayüze ekleme adımı uygulandı. Doc ve github profillerinde uygun bir kod bulunup gerekli düzenlemeler yapıldı.
 
-Alttaki resimde de 2 numaralı buton ile gösterilen yerde gui göstermeye çalıştık.[ Çözülemeyen Sorunlar 1] 
+
+Alttaki resimde de 2 numaralı buton ile gösterilen yerde gui gösterilmeye çalışıldı.[ Çözülemeyen Sorunlar 1] 
 
 
 ![anket1](/images/anket1.png)
 
-(Belirli bir sürede anketi doldurup kayda geçecek olan deneye başlayacak kişinin doldurmasını istediğimiz anket soruları ekranı.)(-)
+(Belirli bir sürede anketi doldurup kayda geçecek ve deneye başlayacak kişinin doldurmasını istediğimiz anket soruları ekranı.)(-)
 
 
 ![gui1](/images/gui1.png)
-Üsteki örnek resimde de gözüktüğü gibi bir arayüz hazırlandı. İlk etapta kullanıcı EEG cihazına bağlı olacağı için ve kayıtlarda gürültü olmaması adına 4 numaralı butondaki gibi bir baseline ihtiyacı doğdu.
+Üsteki örnek resimde de görüldüğü gibi bir arayüz hazırlandı. İlk etapta kullanıcı EEG cihazına bağlı olacağı için ve kayıtlarda gürültü olmaması adına 4 numaralı butondaki gibi bir baseline ihtiyacı doğdu.
 ![gui2](/images/gui2.png)
 Bunun çözümü için kullanıcının ilk olarak ekrana odaklanıp 15 saniye boyunca kafasını boşaltması ve rahatlanması için bir süre verildi.
 
