@@ -1,23 +1,23 @@
 # 1. Gelişim Raporu (Bitirme Projesi 2)
 
 ## Düzeltmeler
-- Unity kısmında önceden yapılan Çifte Minare modeline ek olarak Yakutiye Medresesi ve Erzurum Kalesi olmak üzere 2 model ve bu modellerin dokuları eklenmiştir. Ayrıca bu modellere AR uygulaması yapılmıştır.
+- Önceden yapılan Çifte Minare modeline ek olarak Maya ile Yakutiye Medresesi ve Erzurum Kalesi olmak üzere 2 modelleme yapıldı ve bu modellerin dokuları eklendi. Ayrıca bu modellere Unity ile AR uygulaması yapıldı.
 <p float="left">
   <img src="/images/unityEkran1.png" width="500" height="250"/>
   <img src="/images/unityEkran2.png" width="500" height="250" /> 
 </p>
 
-- Unity ekranında kamera açılınca modellerin AR ile gösterilmesi sırasında her modelin boyutunun ve dönmelerinin ayarlanması için Canvas ekranı ve ekranın üzerine butonlar eklendi. Böylece modeller istenildiği kadar döndürülecek ve boyutu ayarlanabilecektir.  
+- Unity ekranında kamera açılınca modellerin AR ile gösterilmesi sırasında her modelin daha detaylı incelenmesi ve konumlarının her açıdan görülebilmesi, ayrıca boyut ve dönme hareketlerinin ayarlanması için Canvas ekranı ve ekranın üzerine butonlar eklendi. Böylece modeller istenildiği kadar döndürülecek ve boyutu ayarlanabilecektir.  
 <p float="left">
   <img src="/images/unityEkran3.png" width="800" height="400"/>
 </p>
 
-- Aşağıdaki ekran videosunda görüldüğü gibi vuforia eklentisi kullanılarak 3 model AR ile gösterilmiştir. Ayrıca Multi Target yapmamız sayesinde tek ekranda farklı resimler göstererek, AR geçişi hızlı ve kolay bir şekilde sağlanmış oldu.
+- Aşağıdaki ekran videosunda görüldüğü gibi vuforia eklentisi kullanılarak 3 model AR ile gösterilmiştir. Ayrıca Multi Target yapılmasının nedeni tek bir ekranda farklı resimlerin gösterilmesiyle, mobil cihaz üzerinde modellerin AR geçişi hızlı ve kolay bir şekilde yapılmış oldu.
 <p float="left">
   <img src= "/images/unityvideo.gif" width="1100" height="600"/>
 </p>
 
-- Multi Target için seçilen resimler yani target'lar aşağıda gösterilmiştir. Her target, modellerin kendi resimlerine göre ayarlanmıştır. Böylece birbirlerinden ayırt edilmesi kolaylaştırılmıştır.
+- Multi Target için seçilen resimler yani target'lar aşağıda gösterilmiştir. Her target, ait olduğu modelin kitaptaki görseline göre ayarlanmıştır. Böylece modellerin birbirlerinden ayırt edilmesi kolaylaştırılmıştır.
 <p float="left">
   <img src="/images/targetKale.png" width="300" height="220" />
   <img src="/images/targetMinare.png" width="300" height="220" /> 
@@ -36,39 +36,37 @@
 
 
 ## Zorluklar
-Projenin ilerleyen kısımlarında EEG kaydı ile tüm adımların sınırlı bir süre içinde ilerlemesi gerektiği ve işlerin daha düzenli ve seri bir şekilde devam etmesi gerektiği için  bir arayüz tasarımı yapılmaya ve araştırılmaya başlanıldı. Tüm dillerin arayüz kütüphaneleri araştırıldı, istekleri karşılayan bir kütüphane düşünüldü ve araştırmalar sırasında, yeni karşılaşılan bir arayüz programı öğrenildi(QT5 Designer). Daha sonra gerekli tasarım yapıldı ve kodlar yazıldı.   
+
+- Projenin ilerleyen kısımlarında EEG kaydı ile tüm adımların sınırlı bir süre içinde ilerlemesi gerektiği ve işlerin daha düzenli ve seri bir şekilde devam etmesi gerektiği için  bir arayüz tasarımı yapılmaya ve araştırılmaya başlanıldı. Tüm dillerin arayüz kütüphaneleri araştırıldı, istekleri karşılayan bir kütüphane düşünüldü ve araştırmalar sırasında, yeni karşılaşılan bir arayüz programı öğrenildi(QT5 Designer). Daha sonra gerekli tasarım yapıldı ve kodlar yazıldı.   
 
 ![QTdesing](/images/qtDesignerGui.png)
 
-Arayüzün tasarım kısmı .QML ile, kodlama kısmı ise python ile hazırlandı. Farklı olan pyside2 de yine qt'ye ait olan ve .ui tasarım yapabilen ama genel işlevi aynı olan arayüz programıdır.
+- Arayüzün tasarım kısmı .QML ile, kodlama kısmı ise python ile hazırlandı. Farklı olan pyside2 de yine qt'ye ait olan ve .ui tasarım yapabilen ama genel işlevi aynı olan arayüz programıdır.
 
 
 **self.browser = QWebEngineView()**
 **PyQt5.QtWebEngine**  kütüphanesi kullanılarak GUI üzerinde timer'a bağlı olarak daha önce hazırlanmış olan anket soruları ile katılımcılardan belirli sürede doldurulması istenildiği için arayüze ekleme adımı uygulandı. Doc ve github profillerinde uygun bir kod bulunup gerekli düzenlemeler yapıldı.
 
-
-Alttaki resimde de 2 numaralı buton ile gösterilen yerde gui gösterilmeye çalışıldı.[ Çözülemeyen Sorunlar 1] 
-
+- Katılımcılara deneye başlamadan önce ve deneyden sonra sunulacak anket soruları aşağıdaki gibidir. Bu sorular katılımcıların durumunun analiz edilmesi için yapılmıştır.
 
 ![anket1](/images/anket1.png)
+- Alttaki Arayüz ekranında 2 numara ile gösterilen buton ile yukarıda da bahsedilen form ekranına gidilmesi amaçlanmıştır. Fakat bu kısımda ilerleme kat edilememiştir.
 
-(Belirli bir sürede anketi doldurup kayda geçecek ve deneye başlayacak kişinin doldurmasını istediğimiz anket soruları ekranı.)(-)
-
-
+- Aşağıda görüldüğü gibi bir arayüz hazırlanmıştır. Bu arayüzde katılımcının bazal metabolizma durumuna en yakın halde olması için kayda başlamadan önce bir baseline ekranı tasarlanarak deneye hazır hale getirilmesi gerektiği düşünülmüştür. Bu yüzden emotiv programındaki baseline ekranına benzer bir tasarım yapılarak hazırlanan arayüze entegre edilmiştir. 
 ![gui1](/images/gui1.png)
-Üsteki örnek resimde de görüldüğü gibi bir arayüz hazırlandı. İlk etapta kullanıcı EEG cihazına bağlı olacağı için ve kayıtlarda gürültü olmaması adına 4 numaralı butondaki gibi bir baseline ihtiyacı doğdu.
-![gui2](/images/gui2.png)
-Bunun çözümü için kullanıcının ilk olarak ekrana odaklanıp 15 saniye boyunca kafasını boşaltması ve rahatlanması için bir süre verildi.
 
-![gui3](/images/gui3.png)
-15 saniye dolumundan sonra ise bu sefer gözleri kapalı bir şekilde tekrardan 15 saniye süre tutuldu. 
+- Baseline çözümünde ilk olarak katılımcının ekrana odaklanıp bir şey düşünmemesi ve rahatlaması için 15 saniyelik bir süre verilmiştir. Daha sonra aynı amaç doğrultusunda katılımcının bu sefer gözleri kapalı bir şekilde tekrardan 15 saniyelik süre tutularak işlem tamamlanmıştır.
 
+<p float="left">
+  <img src="/images/gui2.png" width="470" height="240" />
+  <img src="/images/gui3.png" width="470" height="240" /> 
+</p>
 
-Programın çokça python ve kütüphane hataları vermesinden kaynaklı programı executable hale getirerek zorluklara çözüm üretilmeye çalışılmıştır.
+- Programın çok fazla python ve kütüphane hataları vermesinden kaynaklı programı executable hale getirerek zorluklara çözüm üretilmeye çalışılmıştır.
 
 >pip install cx_Freeze kütüphanesi ile tüm main.py  kodumuzu exe çevirebilmekteyiz.
 
-örnek demo ekran
+**örnek demo ekranı**
 
 ![eexe](/images/exegui.gif)
 
@@ -81,24 +79,16 @@ Buton click olayı ile kayıt tutmasını ve timer ile süre tutmasını ayarlam
 
 Python Selenium ile veya eşdeğer farklı bir metot ile gui için gerekli düzenlemeler için çalışmalar,araştırmalar devam etmektedir.
 
-
-Hali hazırda farklı bir python kodu ile web browser çalıştıbiliyorken kendi ana kodumuza aktarmakta problemler yaşamaktayız. Hata kaynağının mainwindow ve QDialogtan kaynaklı olduğunu düşünmekteyiz.
-Sorunun devam etmesi durumunda python EEL kütüphanesi ile javascript kodu yazıp alternatif olarak devam etmeyi planlamaktayız. Henüz net bir seçim yapılmamak ile beraber araştırmalar ve değişiklikler devam etmekte ve sürekli projeye uygun güncellemeler yapılmaktadır.
-
 ### Çok kısa kodların amaçları 
 
 > browser.py -> python gui QWebEngineView ile websitesi gösterme Anket için kullanacak
 > main.py -> Ana kodlarımızın düzenlendiği alan
 > setup.py -> Programımızın exe haline çevirmek için ayarlanmış kod hali -> cmd  > python  setup.py build build adlı klasöre tüm kütüphanelerin dll ile birlikte sorunsuz bir exe çıktısı verdi
-> 
 > ui_main.py, ui_function.py -> arayüzün .py dönüştürülmüş hali
-> 
 > QT klasördeki kodlar ise aynı gui farklı denenmiş hali, qml javascript çok yakın bir dil ve tasarım odaklı kullanıldı
 > 
 
 ## Araçlar
-
-
 
 - **Unity**
     Unity oyun motoru, sanal ortamı tasarlamaya çalışırken çalışmayı önizlemek için bir AR modu sunar.
