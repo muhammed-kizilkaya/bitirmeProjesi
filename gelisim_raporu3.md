@@ -32,9 +32,8 @@
 1. Wanderson. _"PYTHON and QT QUICK - Custom Buttons With QML And JavaScript - [MODERN GUI]"_, Youtube, 24 Kasım 2020, https://www.youtube.com/watch?v=JhPXOcmXf8I.
 2. Temlioğlu, Eyüp. _"PyQt5 Signal - Slot (İşaret - İşlev) Kavramı"_, WebPage, 20 Şubat 2019, http://yapayzekalabs.blogspot.com/2019/02/pyqt5-signal-slot.html
 3. Amcalar, Armagan. _“Wits — A Node.js library that reads your mind with Emotiv EPOC EEG headset”_, Github, 11 Mart 2019, https://github.com/dashersw/wits
-5. EchoAR. _"How Unity Developers Can Reduce their Build Size with One Simple Step"_, WebPage, 25 Mart 2020, https://medium.com/echoar/how-unity-developers-can-reduce-their-build-size-with-one-simple-step-bce832462da8
-
-
+4. EchoAR. _"How Unity Developers Can Reduce their Build Size with One Simple Step"_, WebPage, 25 Mart 2020, https://medium.com/echoar/how-unity-developers-can-reduce-their-build-size-with-one-simple-step-bce832462da8
+5. Deny._“Create Multiple Target Augmented Reality With Unity 2017.3 & Vuforia”_, Youtube, 24 Ara. 2017, https://www.youtube.com/watch?v=kXwcjBZxQKo&t=229s
 ## Zorluklar
 
 - Projenin ilerleyen kısımlarında EEG kaydı ile tüm adımların sınırlı bir süre içinde ilerlemesi gerektiği ve işlerin daha düzenli ve seri bir şekilde devam etmesi gerektiği için  bir arayüz tasarımı yapılmaya ve araştırılmaya başlanıldı. Tüm dillerin arayüz kütüphaneleri araştırıldı, istekleri karşılayan bir kütüphane düşünüldü ve araştırmalar sırasında, yeni karşılaşılan bir arayüz programı öğrenildi(QT5 Designer). Daha sonra gerekli tasarım yapıldı ve kodlar yazıldı.   
