@@ -51,21 +51,21 @@
 ![anket1](/images/anket1.png)
 - Alttaki Arayüz ekranında 2 numara ile gösterilen buton ile yukarıda da bahsedilen form ekranına gidilmesi amaçlanmıştır. Fakat bu kısımda ilerleme kat edilememiştir.
 
--Aşağıda görüldüğü gibi bir arayüz hazırlanmıştır. Bu arayüzde katılımcının bazal metabolizma durumuna en yakın halde olması için kayda başlamadan önce bir baseline ekranı tasarlanarak deneye hazır hale getirilmesi gerektiği düşünülmüştür. Bu yüzden emotiv programındaki baseline ekranına benzer bir tasarım yapılarak hazırlanan arayüze entegre edilmiştir. 
+- Aşağıda görüldüğü gibi bir arayüz hazırlanmıştır. Bu arayüzde katılımcının bazal metabolizma durumuna en yakın halde olması için kayda başlamadan önce bir baseline ekranı tasarlanarak deneye hazır hale getirilmesi gerektiği düşünülmüştür. Bu yüzden emotiv programındaki baseline ekranına benzer bir tasarım yapılarak hazırlanan arayüze entegre edilmiştir. 
 ![gui1](/images/gui1.png)
 
-![gui2](/images/gui2.png)
-Bunun çözümü için kullanıcının ilk olarak ekrana odaklanıp 15 saniye boyunca kafasını boşaltması ve rahatlanması için bir süre verildi.
+- Baseline çözümünde ilk olarak katılımcının ekrana odaklanıp bir şey düşünmemesi ve rahatlaması için 15 saniyelik bir süre verilmiştir. Daha sonra aynı amaç doğrultusunda katılımcının bu sefer gözleri kapalı bir şekilde tekrardan 15 saniyelik süre tutularak işlem tamamlanmıştır.
 
-![gui3](/images/gui3.png)
-15 saniye dolumundan sonra ise bu sefer gözleri kapalı bir şekilde tekrardan 15 saniye süre tutuldu. 
+<p float="left">
+  <img src="/images/gui2.png" width="470" height="240" />
+  <img src="/images/gui3.png" width="470" height="240" /> 
+</p>
 
-
-Programın çokça python ve kütüphane hataları vermesinden kaynaklı programı executable hale getirerek zorluklara çözüm üretilmeye çalışılmıştır.
+- Programın çok fazla python ve kütüphane hataları vermesinden kaynaklı programı executable hale getirerek zorluklara çözüm üretilmeye çalışılmıştır.
 
 >pip install cx_Freeze kütüphanesi ile tüm main.py  kodumuzu exe çevirebilmekteyiz.
 
-örnek demo ekran
+**örnek demo ekranı**
 
 ![eexe](/images/exegui.gif)
 
