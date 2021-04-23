@@ -83,9 +83,15 @@ Python Selenium ile veya eşdeğer farklı bir metot ile gui için gerekli düze
     
 - **EchoAr**
     Hızlı bir şekilde 3B uygulama ve içerik oluşturup dağıtmasına yardımcı olmak için araçlar ve sunucu tarafı altyapısı sağlayan bir VR/AR bulut platformudur. Esnek bulut altyapısı, 3D içeriği kolayca yönetip AR uygulamalarında çok basit bir yolla yayınlamasını sağlar. **Ücretsiz versiyonunda Ar için alternatif sınırlı erişim istekleri karşılamadığı ve platforma yüklenecek dosya boyutunun yetersiz olmasından dolayı devam edilmedi.**
+    
 - **Python MNE** 
     MEG, EEG gibi insan nörofizyolojik verileri keşfetmek, görselleştirmek ve analiz etmek için EDF formatına dönüştürülmüş veriyi işlemeye olanak sağlayan açık kaynaklı bir Python paketidir.
-- **Python Pyside2- Pyside6, PyQt5, Qt Designer, QtCreator** (*Arayüz için kullanılan python araçları*) 
+    
+- **Python Pyside2- Pyside6, PyQt5, Qt Designer, QtCreator**
+    Grafiksel arayüz (GUI) sunmak için kullanılan Python kütüphaneleridir.
+    
 - **Emotiv PRO**
-    Beyin sinyallerini takip etmemiz ve kayıt alıp düzenlememiz için gerekli uygulama*)
-- **Vs Code, PyCharm 2020.3.5, Spyder(Anaconda3)**()
+    Beyin sinyallerini analiz edip, takip etmeyi sağlayan ve sinyallerin kayıt alınıp düzenlenmesinde gerekli cihaz.
+    
+- **Vs Code, PyCharm 2020.3.5, Spyder(Anaconda3)**
+    kullanılan programlama araçları.
