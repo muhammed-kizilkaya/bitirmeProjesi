@@ -57,7 +57,9 @@ Python Selenium ile veya eşdeğer farklı bir metot ile gui için gerekli düze
     Unity oyun motoru, sanal ortamı tasarlamaya çalışırken çalışmayı önizlemek için bir AR modu sunar.
 - **Unity Vuforia**
     Artırılmış Gerçeklik uygulamalarının oluşturulmasında, 3B nesneleri gerçek zamanlı olarak görmek ve incelemek için kullanıldı. Ayrıca 3B modelleri ve diğer sanal nesneleri, mobil cihazın kamerasıyla görüntülendiğinde gerçek dünyaya göre konumlandırılmasını, yönlendirilmesini de sağlar. Böylece okuyucunun zihninde metinde tasvir edilen mekanın canlandırılması ve sanal nesnenin gerçek dünyanın bir parçası haline getirilmesi sağlanır. Bu işlemleri Vuforia, Unity'de Programlama Arabirimleri (API), SDK'lar (Andoid vs.) ile gerçekleştirerek AR sahne tasarımı uygulamalarının geliştirilmesini sağlar. 
-- **EchoAr** (*Ar için alternatif "sınırlı erişim istekleri karşılamadığı için devam edilmedi.*) 
+- **EchoAr**
+    Hızlı bir şekilde 3B uygulama ve içerik oluşturup dağıtmasına yardımcı olmak için araçlar ve sunucu tarafı altyapısı sağlayan bir VR/AR bulut platformudur. Esnek bulut altyapısı, 3D içeriği kolayca yönetip AR uygulamalarında çok basit bir yolla yayınlamasını sağlar.
+(*Ar için alternatif "sınırlı erişim istekleri karşılamadığı için devam edilmedi.*) 
 - **Python MNE** (*MEG/EEG analizi- EDF formatına dönüştürülmüş veriyi işleme*)
 - **Python Pyside2- Pyside6, PyQt5, Qt Designer, QtCreator** (*Arayüz için kullanılan python araçları*) 
 - **Emotiv PRO**(*Beyin sinyallerini takip etmemiz ve kayıt alıp düzenlememiz için gerekli uygulama*)
