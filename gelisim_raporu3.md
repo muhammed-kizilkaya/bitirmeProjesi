@@ -1,23 +1,23 @@
 # 1. Gelişim Raporu (Bitirme Projesi 2)
 
 ## Düzeltmeler
-- Unity kısmında önceden yapılan Çifte Minare modeline ek olarak Yakutiye Medresesi ve Erzurum Kalesi olmak üzere 2 model ve bu modellerin dokuları eklenmiştir. Ayrıca bu modellere AR uygulaması yapılmıştır.
+- Önceden yapılan Çifte Minare modeline ek olarak Maya ile Yakutiye Medresesi ve Erzurum Kalesi olmak üzere 2 modelleme yapıldı ve bu modellerin dokuları eklendi. Ayrıca bu modellere Unity ile AR uygulaması yapıldı.
 <p float="left">
   <img src="/images/unityEkran1.png" width="500" height="250"/>
   <img src="/images/unityEkran2.png" width="500" height="250" /> 
 </p>
 
-- Unity ekranında kamera açılınca modellerin AR ile gösterilmesi sırasında her modelin boyutunun ve dönmelerinin ayarlanması için Canvas ekranı ve ekranın üzerine butonlar eklendi. Böylece modeller istenildiği kadar döndürülecek ve boyutu ayarlanabilecektir.  
+- Unity ekranında kamera açılınca modellerin AR ile gösterilmesi sırasında her modelin daha detaylı incelenmesi ve konumlarının her açıdan görülebilmesi, ayrıca boyut ve dönme hareketlerinin ayarlanması için Canvas ekranı ve ekranın üzerine butonlar eklendi. Böylece modeller istenildiği kadar döndürülecek ve boyutu ayarlanabilecektir.  
 <p float="left">
   <img src="/images/unityEkran3.png" width="800" height="400"/>
 </p>
 
-- Aşağıdaki ekran videosunda görüldüğü gibi vuforia eklentisi kullanılarak 3 model AR ile gösterilmiştir. Ayrıca Multi Target yapmamız sayesinde tek ekranda farklı resimler göstererek, AR geçişi hızlı ve kolay bir şekilde sağlanmış oldu.
+- Aşağıdaki ekran videosunda görüldüğü gibi vuforia eklentisi kullanılarak 3 model AR ile gösterilmiştir. Ayrıca Multi Target yapılmasının nedeni tek bir ekranda farklı resimlerin gösterilmesiyle, mobil cihaz üzerinde modellerin AR geçişi hızlı ve kolay bir şekilde yapılmış oldu.
 <p float="left">
   <img src= "/images/unityvideo.gif" width="1100" height="600"/>
 </p>
 
-- Multi Target için seçilen resimler yani target'lar aşağıda gösterilmiştir. Her target, modellerin kendi resimlerine göre ayarlanmıştır. Böylece birbirlerinden ayırt edilmesi kolaylaştırılmıştır.
+- Multi Target için seçilen resimler yani target'lar aşağıda gösterilmiştir. Her target, ait olduğu modelin kitaptaki görseline göre ayarlanmıştır. Böylece modellerin birbirlerinden ayırt edilmesi kolaylaştırılmıştır.
 <p float="left">
   <img src="/images/targetKale.png" width="300" height="220" />
   <img src="/images/targetMinare.png" width="300" height="220" /> 
@@ -80,18 +80,12 @@ Buton click olayı ile kayıt tutmasını ve timer ile süre tutmasını ayarlam
 
 Python Selenium ile veya eşdeğer farklı bir metot ile gui için gerekli düzenlemeler için çalışmalar,araştırmalar devam etmektedir.
 
-
-Hali hazırda farklı bir python kodu ile web browser çalıştıbiliyorken kendi ana kodumuza aktarmakta problemler yaşamaktayız. Hata kaynağının mainwindow ve QDialogtan kaynaklı olduğunu düşünmekteyiz.
-Sorunun devam etmesi durumunda python EEL kütüphanesi ile javascript kodu yazıp alternatif olarak devam etmeyi planlamaktayız. Henüz net bir seçim yapılmamak ile beraber araştırmalar ve değişiklikler devam etmekte ve sürekli projeye uygun güncellemeler yapılmaktadır.
-
 ### Çok kısa kodların amaçları 
 
 > browser.py -> python gui QWebEngineView ile websitesi gösterme Anket için kullanacak
 > main.py -> Ana kodlarımızın düzenlendiği alan
 > setup.py -> Programımızın exe haline çevirmek için ayarlanmış kod hali -> cmd  > python  setup.py build build adlı klasöre tüm kütüphanelerin dll ile birlikte sorunsuz bir exe çıktısı verdi
-> 
 > ui_main.py, ui_function.py -> arayüzün .py dönüştürülmüş hali
-> 
 > QT klasördeki kodlar ise aynı gui farklı denenmiş hali, qml javascript çok yakın bir dil ve tasarım odaklı kullanıldı
 > 
 
