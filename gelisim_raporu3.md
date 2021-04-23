@@ -46,13 +46,14 @@
 **self.browser = QWebEngineView()**
 **PyQt5.QtWebEngine**  kütüphanesi kullanılarak GUI üzerinde timer'a bağlı olarak daha önce hazırlanmış olan anket soruları ile katılımcılardan belirli sürede doldurulması istenildiği için arayüze ekleme adımı uygulandı. Doc ve github profillerinde uygun bir kod bulunup gerekli düzenlemeler yapıldı.
 
-- Belirli bir sürede anketi doldurup kayda geçecek ve deneye başlayacak kişinin doldurmasını istediğimiz anket soruları ekranı.(-)
+- Katılımcılara deneye başlamadan önce ve deneyden sonra sunulacak anket soruları aşağıdaki gibidir. Bu sorular katılımcıların durumunun analiz edilmesi için yapılmıştır.
 
 ![anket1](/images/anket1.png)
-- Alttaki resimde de 2 numaralı buton ile gösterilen yerde gui gösterilmeye çalışıldı.[ Çözülemeyen Sorunlar 1] 
+- Alttaki Arayüz ekranında 2 numara ile gösterilen buton ile yukarıda da bahsedilen form ekranına gidilmesi amaçlanmıştır. Fakat bu kısımda ilerleme kat edilememiştir.
 
+-Aşağıda görüldüğü gibi bir arayüz hazırlanmıştır. Bu arayüzde katılımcının bazal metabolizma durumuna en yakın halde olması için kayda başlamadan önce bir baseline ekranı tasarlanarak deneye hazır hale getirilmesi gerektiği düşünülmüştür. Bu yüzden emotiv programındaki baseline ekranına benzer bir tasarım yapılarak hazırlanan arayüze entegre edilmiştir. 
 ![gui1](/images/gui1.png)
-Üsteki örnek resimde de görüldüğü gibi bir arayüz hazırlandı. İlk etapta kullanıcı EEG cihazına bağlı olacağı için ve kayıtlarda gürültü olmaması adına 4 numaralı butondaki gibi bir baseline ihtiyacı doğdu.
+
 ![gui2](/images/gui2.png)
 Bunun çözümü için kullanıcının ilk olarak ekrana odaklanıp 15 saniye boyunca kafasını boşaltması ve rahatlanması için bir süre verildi.
 
