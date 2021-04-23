@@ -79,7 +79,18 @@ Buton click olayı ile kayıt tutmasını ve timer ile süre tutmasını ayarlam
 
 Python Selenium ile veya eşdeğer farklı bir metot ile gui için gerekli düzenlemeler için çalışmalar,araştırmalar devam etmektedir.
 
+### Çok kısa kodların amaçları 
+
+> browser.py -> python gui QWebEngineView ile websitesi gösterme Anket için kullanacak
+> main.py -> Ana kodlarımızın düzenlendiği alan
+> setup.py -> Programımızın exe haline çevirmek için ayarlanmış kod hali -> cmd  > python  setup.py build build adlı klasöre tüm kütüphanelerin dll ile birlikte sorunsuz bir exe çıktısı verdi
+> ui_main.py, ui_function.py -> arayüzün .py dönüştürülmüş hali
+> QT klasördeki kodlar ise aynı gui farklı denenmiş hali, qml javascript çok yakın bir dil ve tasarım odaklı kullanıldı
+> 
+
 ## Araçlar
+
+
 
 - **Unity**
     Unity oyun motoru, sanal ortamı tasarlamaya çalışırken çalışmayı önizlemek için bir AR modu sunar.
