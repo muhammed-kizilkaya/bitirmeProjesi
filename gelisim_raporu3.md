@@ -85,7 +85,9 @@ Python Selenium ile veya eşdeğer farklı bir metot ile gui için gerekli düze
 > browser.py -> python gui QWebEngineView ile websitesi gösterme Anket için kullanacak
 > main.py -> Ana kodlarımızın düzenlendiği alan
 > setup.py -> Programımızın exe haline çevirmek için ayarlanmış kod hali -> cmd  > python  setup.py build build adlı klasöre tüm kütüphanelerin dll ile birlikte sorunsuz bir exe çıktısı verdi
+> 
 > ui_main.py, ui_function.py -> arayüzün .py dönüştürülmüş hali
+> 
 > QT klasördeki kodlar ise aynı gui farklı denenmiş hali, qml javascript çok yakın bir dil ve tasarım odaklı kullanıldı
 > 
 
