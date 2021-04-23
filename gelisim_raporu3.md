@@ -61,6 +61,15 @@ Bunun çözümü için kullanıcının ilk olarak ekrana odaklanıp 15 saniye bo
 ![gui3](/images/gui3.png)
 15 saniye dolumundan sonra ise bu sefer gözleri kapalı bir şekilde tekrardan 15 saniye süre tutuldu. 
 
+
+Programın çokça python ve kütüphane hataları vermesinden kaynaklı programı executable hale getirerek zorluklara çözüm üretilmeye çalışılmıştır.
+
+>pip install cx_Freeze kütüphanesi ile tüm main.py  kodumuzu exe çevirebilmekteyiz.
+
+örnek demo ekran
+
+![eexe](/images/exegui.gif)
+
 ### Çözülemeyen Sorunlar
 Timer fonksiyonu consolda sorunsuz çalışırken gerekli seslendirmeleri ve timer beep sesini çıkartırken , self.ui.timer_label.set_text(timer()) yerinde yani label update kısmında sadece set text()-> 0 çıktısı veriyor. Alternatif olarak Qtimer kullandık henüz label setText sorunu devam ediyor. Farklı çözüm yolları aramaktayız.
 
