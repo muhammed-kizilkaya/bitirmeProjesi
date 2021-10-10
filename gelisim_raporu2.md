@@ -108,9 +108,4 @@ Gerek duyulduğu takdirde ve unity istekleri karşılamadığı durumlarda ve ek
 
 EEG sinyallerinin incelenmesi için cihazının sahip olduğu USB alıcısından sinyallerin alınıp işlenebilmesinde ve katılımcılara deney esnasında gerekli yönlendirmelerin (gözlerini aç, kapa vb.) yapılmasında kullanılacaktır. 
 
-## İş Dağılımı
-Grup Üyesi | Saat Yüzdesi
------------- | -------------
-Muhammed Bayat | % 80
-Ayşe Kartal | % 20
- 
+
